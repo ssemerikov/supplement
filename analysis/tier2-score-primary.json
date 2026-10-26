@@ -1,0 +1,879 @@
+{
+  "reading": "M2m",
+  "reading_why": "The Tier-2 prompt describes the target model as carrying an orthogonal method factor over the democracy battery. That is M2m. The panel forecast the model it was described, not the model that shares its name.",
+  "outcome_sources": {
+    "loadings": "primary-both-M2m.rds",
+    "configural_note": "The instrument's word 'configural' could also point at the multi-group fit, which yields 39 loadings per item and no aggregation rule anywhere in the instrument. The pooled fit is the only reading under which the proposition has a referent.",
+    "loading_threshold": 0.4
+  },
+  "draws": {
+    "n_cells_accepted": 144,
+    "n_part_A": 72,
+    "n_part_B": 72,
+    "families": [
+      "anthropic",
+      "deepseek",
+      "google-gemma",
+      "openai-oss",
+      "zhipu"
+    ]
+  },
+  "propositions": {
+    "n_total": 63,
+    "n_resolved": 59,
+    "n_unresolved": 4,
+    "unresolved_reasons": {
+      "B-H3b": "H3b is a registered hypothesis the paper does not report: it needs country-level D1/D2 scores, and the alignment hard stop licenses none.",
+      "B-H4": "H4 is a registered hypothesis the paper does not report: 8 of its 10 probe items are outside the analysis frame.",
+      "C-METRIC": "The registered 39-country metric step on M2 was not estimable. The two diagnostics that stand in for it disagree and differ in both specification and sample, so neither resolves this proposition as worded.",
+      "C-SCALAR": "The registered 39-country scalar step on M2 was not estimable, and the per-dimension chain was abandoned on the D1 scalar step after three OOM kills."
+    },
+    "n_pairs_scored": 4248,
+    "n_pairs_skipped_unresolved": 288,
+    "base_rate_true": 0.5254
+  },
+  "brier": {
+    "BS": 0.2335,
+    "BS_reference_base_rate": 0.2494,
+    "BSS": 0.0637,
+    "murphy": {
+      "reliability": 0.003317,
+      "resolution": 0.018401,
+      "uncertainty": 0.249354,
+      "bs_binned": 0.23427,
+      "identity_check": 0.23427,
+      "binning_residual": -0.000803,
+      "ece": 0.048593
+    },
+    "calibration_curve": [
+      {
+        "bin": "[0.0,0.1]",
+        "n": 36,
+        "mean_forecast": 0.095,
+        "observed_rate": 0.2778
+      },
+      {
+        "bin": "[0.1,0.2]",
+        "n": 226,
+        "mean_forecast": 0.1763,
+        "observed_rate": 0.2743
+      },
+      {
+        "bin": "[0.2,0.3]",
+        "n": 383,
+        "mean_forecast": 0.2724,
+        "observed_rate": 0.3368
+      },
+      {
+        "bin": "[0.3,0.4]",
+        "n": 504,
+        "mean_forecast": 0.37,
+        "observed_rate": 0.3849
+      },
+      {
+        "bin": "[0.4,0.5]",
+        "n": 622,
+        "mean_forecast": 0.4649,
+        "observed_rate": 0.4775
+      },
+      {
+        "bin": "[0.5,0.6]",
+        "n": 805,
+        "mean_forecast": 0.5688,
+        "observed_rate": 0.5391
+      },
+      {
+        "bin": "[0.6,0.7]",
+        "n": 784,
+        "mean_forecast": 0.6675,
+        "observed_rate": 0.6161
+      },
+      {
+        "bin": "[0.7,0.8]",
+        "n": 651,
+        "mean_forecast": 0.7553,
+        "observed_rate": 0.6759
+      },
+      {
+        "bin": "[0.8,0.9]",
+        "n": 220,
+        "mean_forecast": 0.8494,
+        "observed_rate": 0.7545
+      },
+      {
+        "bin": "[0.9,1.0]",
+        "n": 17,
+        "mean_forecast": 0.9465,
+        "observed_rate": 1.0
+      }
+    ],
+    "auc_block_A": 0.6592
+  },
+  "by_block": {
+    "A_item_loadings": {
+      "n_pairs": 3744,
+      "BS": 0.2357,
+      "BS_reference_base_rate": 0.2496,
+      "BSS": 0.0558,
+      "base_rate_true": 0.4808
+    },
+    "B_C_hypotheses_and_invariance": {
+      "n_pairs": 504,
+      "BS": 0.2169,
+      "BS_reference_base_rate": 0.1224,
+      "BSS": -0.7717,
+      "base_rate_true": 0.8571,
+      "caveat": "Only 7 of these 11 propositions resolve and 6 of the 7 came out TRUE, so the base-rate reference is unusually strong here and a negative BSS is easier to earn than it looks. The comparison worth making is not block B/C against zero but block B/C against block A, where the same panel, in the same cells, scored positively."
+    }
+  },
+  "family_cluster_bootstrap": {
+    "n_families": 5,
+    "n_replicates": 10000,
+    "n_usable": 10000,
+    "lo95": 0.0162,
+    "hi95": 0.1043,
+    "median": 0.0619
+  },
+  "informative_by_registered_criterion": true,
+  "registered_criterion": "BSS family-cluster bootstrap lower bound > 0",
+  "distribution_over_the_grid": {
+    "note": "Reported because the registered rule is to report the distribution, never a point estimate. A configuration is not a finding.",
+    "by_phrasing": [
+      {
+        "phrasing": "adversarial",
+        "n_pairs": 1416,
+        "brier": 0.2375,
+        "bss": 0.0475
+      },
+      {
+        "phrasing": "betting",
+        "n_pairs": 1416,
+        "brier": 0.232,
+        "bss": 0.0694
+      },
+      {
+        "phrasing": "neutral",
+        "n_pairs": 1416,
+        "brier": 0.2309,
+        "bss": 0.0742
+      }
+    ],
+    "by_persona_detail": [
+      {
+        "detail": "rich",
+        "n_pairs": 2124,
+        "brier": 0.2349,
+        "bss": 0.058
+      },
+      {
+        "detail": "terse",
+        "n_pairs": 2124,
+        "brier": 0.232,
+        "bss": 0.0694
+      }
+    ],
+    "by_temperature": [
+      {
+        "temperature": "0.3",
+        "n_pairs": 2124,
+        "brier": 0.2369,
+        "bss": 0.0498
+      },
+      {
+        "temperature": "1.0",
+        "n_pairs": 2124,
+        "brier": 0.23,
+        "bss": 0.0776
+      }
+    ],
+    "by_family": [
+      {
+        "family": "anthropic",
+        "n_pairs": 1416,
+        "brier": 0.2182,
+        "bss": 0.1251
+      },
+      {
+        "family": "deepseek",
+        "n_pairs": 708,
+        "brier": 0.2502,
+        "bss": -0.0032
+      },
+      {
+        "family": "google-gemma",
+        "n_pairs": 708,
+        "brier": 0.2303,
+        "bss": 0.0766
+      },
+      {
+        "family": "openai-oss",
+        "n_pairs": 708,
+        "brier": 0.2418,
+        "bss": 0.0303
+      },
+      {
+        "family": "zhipu",
+        "n_pairs": 708,
+        "brier": 0.2422,
+        "bss": 0.0286
+      }
+    ],
+    "by_persona": [
+      {
+        "persona": "comparativist",
+        "n_pairs": 708,
+        "brier": 0.2354,
+        "bss": 0.0562
+      },
+      {
+        "persona": "cross_cultural",
+        "n_pairs": 708,
+        "brier": 0.2304,
+        "bss": 0.0759
+      },
+      {
+        "persona": "methodologist",
+        "n_pairs": 708,
+        "brier": 0.2434,
+        "bss": 0.0238
+      },
+      {
+        "persona": "psychometrician",
+        "n_pairs": 708,
+        "brier": 0.237,
+        "bss": 0.0496
+      },
+      {
+        "persona": "sceptic",
+        "n_pairs": 708,
+        "brier": 0.2242,
+        "bss": 0.1007
+      },
+      {
+        "persona": "sociologist",
+        "n_pairs": 708,
+        "brier": 0.2304,
+        "bss": 0.0761
+      }
+    ]
+  },
+  "block_D_point_forecasts": [
+    {
+      "id": "D-PHI12",
+      "observed": 0.3104,
+      "n_forecasts": 72,
+      "median_forecast": 0.475,
+      "mean_forecast": 0.4919,
+      "sd_forecast": 0.216,
+      "median_absolute_error": 0.2096,
+      "rmse": 0.281,
+      "sign_correct_rate": 0.9722,
+      "n_with_80_interval": 72,
+      "interval_80_coverage": 0.5417
+    },
+    {
+      "id": "D-PHI13",
+      "observed": -0.4156,
+      "n_forecasts": 72,
+      "median_forecast": 0.365,
+      "mean_forecast": 0.3432,
+      "sd_forecast": 0.2829,
+      "median_absolute_error": 0.7806,
+      "rmse": 0.8091,
+      "sign_correct_rate": 0.125,
+      "n_with_80_interval": 72,
+      "interval_80_coverage": 0.125
+    },
+    {
+      "id": "D-PHI23",
+      "observed": -0.4103,
+      "n_forecasts": 72,
+      "median_forecast": 0.41,
+      "mean_forecast": 0.4199,
+      "sd_forecast": 0.1599,
+      "median_absolute_error": 0.8203,
+      "rmse": 0.8452,
+      "sign_correct_rate": 0.0,
+      "n_with_80_interval": 72,
+      "interval_80_coverage": 0.0
+    }
+  ],
+  "per_proposition": [
+    {
+      "id": "A-D1-E1",
+      "n_draws": 72,
+      "mean_forecast": 0.7086,
+      "sd_forecast": 0.0944,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-E2",
+      "n_draws": 72,
+      "mean_forecast": 0.5099,
+      "sd_forecast": 0.1594,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-E3",
+      "n_draws": 72,
+      "mean_forecast": 0.5036,
+      "sd_forecast": 0.1894,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-E4",
+      "n_draws": 72,
+      "mean_forecast": 0.3736,
+      "sd_forecast": 0.1497,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-E5",
+      "n_draws": 72,
+      "mean_forecast": 0.4743,
+      "sd_forecast": 0.1521,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M1",
+      "n_draws": 72,
+      "mean_forecast": 0.6665,
+      "sd_forecast": 0.164,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M2",
+      "n_draws": 72,
+      "mean_forecast": 0.6274,
+      "sd_forecast": 0.1591,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M3",
+      "n_draws": 72,
+      "mean_forecast": 0.6178,
+      "sd_forecast": 0.1467,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M4",
+      "n_draws": 72,
+      "mean_forecast": 0.5753,
+      "sd_forecast": 0.149,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M5",
+      "n_draws": 72,
+      "mean_forecast": 0.6096,
+      "sd_forecast": 0.1573,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M6",
+      "n_draws": 72,
+      "mean_forecast": 0.4753,
+      "sd_forecast": 0.1422,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-M7",
+      "n_draws": 72,
+      "mean_forecast": 0.5833,
+      "sd_forecast": 0.1223,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P1",
+      "n_draws": 72,
+      "mean_forecast": 0.4765,
+      "sd_forecast": 0.2334,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P2",
+      "n_draws": 72,
+      "mean_forecast": 0.4253,
+      "sd_forecast": 0.2272,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P3",
+      "n_draws": 72,
+      "mean_forecast": 0.254,
+      "sd_forecast": 0.1514,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P4",
+      "n_draws": 72,
+      "mean_forecast": 0.3921,
+      "sd_forecast": 0.1804,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P5",
+      "n_draws": 72,
+      "mean_forecast": 0.4082,
+      "sd_forecast": 0.1949,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D1-P6",
+      "n_draws": 72,
+      "mean_forecast": 0.406,
+      "sd_forecast": 0.1985,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-A1",
+      "n_draws": 72,
+      "mean_forecast": 0.5264,
+      "sd_forecast": 0.1227,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-A2",
+      "n_draws": 72,
+      "mean_forecast": 0.4235,
+      "sd_forecast": 0.1179,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-A3",
+      "n_draws": 72,
+      "mean_forecast": 0.4851,
+      "sd_forecast": 0.1302,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-C1",
+      "n_draws": 72,
+      "mean_forecast": 0.4167,
+      "sd_forecast": 0.1438,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-C2",
+      "n_draws": 72,
+      "mean_forecast": 0.3121,
+      "sd_forecast": 0.108,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-E1",
+      "n_draws": 72,
+      "mean_forecast": 0.6725,
+      "sd_forecast": 0.1058,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-E2",
+      "n_draws": 72,
+      "mean_forecast": 0.6589,
+      "sd_forecast": 0.1313,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-E3",
+      "n_draws": 72,
+      "mean_forecast": 0.3438,
+      "sd_forecast": 0.1075,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-M1",
+      "n_draws": 72,
+      "mean_forecast": 0.6183,
+      "sd_forecast": 0.1307,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-M2",
+      "n_draws": 72,
+      "mean_forecast": 0.6019,
+      "sd_forecast": 0.1307,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-M3",
+      "n_draws": 72,
+      "mean_forecast": 0.6215,
+      "sd_forecast": 0.1328,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-M4",
+      "n_draws": 72,
+      "mean_forecast": 0.626,
+      "sd_forecast": 0.1523,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-X1",
+      "n_draws": 72,
+      "mean_forecast": 0.3897,
+      "sd_forecast": 0.144,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D2-X2",
+      "n_draws": 72,
+      "mean_forecast": 0.3601,
+      "sd_forecast": 0.1466,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-C1",
+      "n_draws": 72,
+      "mean_forecast": 0.6211,
+      "sd_forecast": 0.161,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-C2",
+      "n_draws": 72,
+      "mean_forecast": 0.6226,
+      "sd_forecast": 0.1592,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-C3",
+      "n_draws": 72,
+      "mean_forecast": 0.6321,
+      "sd_forecast": 0.1401,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-C4",
+      "n_draws": 72,
+      "mean_forecast": 0.5744,
+      "sd_forecast": 0.165,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-C5",
+      "n_draws": 72,
+      "mean_forecast": 0.5743,
+      "sd_forecast": 0.1496,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-M1",
+      "n_draws": 72,
+      "mean_forecast": 0.4869,
+      "sd_forecast": 0.1457,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-M2",
+      "n_draws": 72,
+      "mean_forecast": 0.5581,
+      "sd_forecast": 0.1425,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P1",
+      "n_draws": 72,
+      "mean_forecast": 0.6728,
+      "sd_forecast": 0.1947,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P2",
+      "n_draws": 72,
+      "mean_forecast": 0.6683,
+      "sd_forecast": 0.189,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P3",
+      "n_draws": 72,
+      "mean_forecast": 0.5485,
+      "sd_forecast": 0.1471,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P4",
+      "n_draws": 72,
+      "mean_forecast": 0.6599,
+      "sd_forecast": 0.1271,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P5",
+      "n_draws": 72,
+      "mean_forecast": 0.6532,
+      "sd_forecast": 0.1817,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P6",
+      "n_draws": 72,
+      "mean_forecast": 0.5974,
+      "sd_forecast": 0.1656,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P7",
+      "n_draws": 72,
+      "mean_forecast": 0.6351,
+      "sd_forecast": 0.1602,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P8",
+      "n_draws": 72,
+      "mean_forecast": 0.5696,
+      "sd_forecast": 0.1362,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-P9",
+      "n_draws": 72,
+      "mean_forecast": 0.4886,
+      "sd_forecast": 0.1308,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-Q1",
+      "n_draws": 72,
+      "mean_forecast": 0.6008,
+      "sd_forecast": 0.1304,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-Q2",
+      "n_draws": 72,
+      "mean_forecast": 0.5401,
+      "sd_forecast": 0.1433,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-Q3",
+      "n_draws": 72,
+      "mean_forecast": 0.5939,
+      "sd_forecast": 0.1323,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "A-D3-Q4",
+      "n_draws": 72,
+      "mean_forecast": 0.485,
+      "sd_forecast": 0.1242,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "B-FIT",
+      "n_draws": 72,
+      "mean_forecast": 0.4579,
+      "sd_forecast": 0.1767,
+      "outcome": 0.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H1",
+      "n_draws": 72,
+      "mean_forecast": 0.4596,
+      "sd_forecast": 0.1876,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H1a",
+      "n_draws": 72,
+      "mean_forecast": 0.7642,
+      "sd_forecast": 0.1261,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H1c",
+      "n_draws": 72,
+      "mean_forecast": 0.6686,
+      "sd_forecast": 0.1982,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H2",
+      "n_draws": 72,
+      "mean_forecast": 0.3965,
+      "sd_forecast": 0.1718,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H2c",
+      "n_draws": 72,
+      "mean_forecast": 0.6135,
+      "sd_forecast": 0.1873,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "B-H3b",
+      "n_draws": 72,
+      "mean_forecast": 0.3311,
+      "sd_forecast": 0.1273,
+      "outcome": null,
+      "resolved": false
+    },
+    {
+      "id": "B-H4",
+      "n_draws": 72,
+      "mean_forecast": 0.554,
+      "sd_forecast": 0.1395,
+      "outcome": null,
+      "resolved": false
+    },
+    {
+      "id": "C-ALIGN",
+      "n_draws": 72,
+      "mean_forecast": 0.6449,
+      "sd_forecast": 0.1687,
+      "outcome": 1.0,
+      "resolved": true
+    },
+    {
+      "id": "C-METRIC",
+      "n_draws": 72,
+      "mean_forecast": 0.2526,
+      "sd_forecast": 0.1259,
+      "outcome": null,
+      "resolved": false
+    },
+    {
+      "id": "C-SCALAR",
+      "n_draws": 72,
+      "mean_forecast": 0.1075,
+      "sd_forecast": 0.0742,
+      "outcome": null,
+      "resolved": false
+    }
+  ],
+  "run_utc": "2026-08-11T06:04:53+00:00",
+  "registered": true,
+  "registered_in": "preregistration.md 7.1; scoring spec docs/design/delphi-design.md 9.6",
+  "variant": "primary",
+  "seed": 20260810,
+  "instrument_sha256": [
+    "5bf9353386ed2d57c4c8b4eabc8a1cc29ba55973f5b0616f3f980f1f0ac0be9c"
+  ],
+  "instrument_version": 2,
+  "forecast_deposit": {
+    "node": "https://osf.io/zrvdp/",
+    "doi": "10.17605/OSF.IO/ZRVDP",
+    "frozen_utc": "2026-08-10T09:11:17Z",
+    "note": "Frozen before any CFA was run; the gate is enforced in code/05 and code/06."
+  },
+  "resolution_sensitivity": {
+    "note": "The same forecast scored against the other reading of which model the instrument described. Reported in full because the choice between them is an interpretive one made by us after the forecast was frozen, and a reader is entitled to see what it is worth.",
+    "discovery_order": "Block A was first scored against M2 on 2026-08-11. The discrepancy between the instrument's label (M2) and its prose (a method factor, i.e. M2m) was found afterwards, while computing per-sphere reliability. Both are reported.",
+    "M2m": {
+      "BSS": 0.0637,
+      "BS": 0.2335,
+      "block_A_BSS": 0.0558,
+      "auc_block_A": 0.6592,
+      "bootstrap_lo95": 0.0162,
+      "informative": true,
+      "block_D": {
+        "D-PHI12": {
+          "observed": 0.3104,
+          "median_forecast": 0.475,
+          "interval_80_coverage": 0.5417
+        },
+        "D-PHI13": {
+          "observed": -0.4156,
+          "median_forecast": 0.365,
+          "interval_80_coverage": 0.125
+        },
+        "D-PHI23": {
+          "observed": -0.4103,
+          "median_forecast": 0.41,
+          "interval_80_coverage": 0.0
+        }
+      },
+      "why": "The Tier-2 prompt describes the target model as carrying an orthogonal method factor over the democracy battery. That is M2m. The panel forecast the model it was described, not the model that shares its name."
+    },
+    "M2": {
+      "BSS": 0.0562,
+      "BS": 0.2343,
+      "block_A_BSS": 0.0536,
+      "auc_block_A": 0.6537,
+      "bootstrap_lo95": 0.013,
+      "informative": true,
+      "block_D": {
+        "D-PHI12": {
+          "observed": 0.3111,
+          "median_forecast": 0.475,
+          "interval_80_coverage": 0.5417
+        },
+        "D-PHI13": {
+          "observed": -0.4544,
+          "median_forecast": 0.365,
+          "interval_80_coverage": 0.0694
+        },
+        "D-PHI23": {
+          "observed": -0.4181,
+          "median_forecast": 0.41,
+          "interval_80_coverage": 0.0
+        }
+      },
+      "why": "The literal label in the block A proposition text. Reported as a sensitivity because the instrument's own prose contradicts the label."
+    },
+    "verdict_stable_across_readings": true
+  }
+}

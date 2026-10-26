@@ -1,0 +1,593 @@
+{
+  "run_utc": "2026-08-10 23:23:14 UTC",
+  "variant": "SMOKE",
+  "stage": "perdim",
+  "f117_assignment": "both",
+  "shared_D2_D3": "F117",
+  "seed": 20260810,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "packages": ["0.7.2", "0.5.9", "4.2.133"],
+  "frame": {
+    "rows": 6000,
+    "countries": 39,
+    "source_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+    "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5"
+  },
+  "fit": {
+    "M0": {
+      "converged": true,
+      "chisq.scaled": 86657.4141,
+      "df.scaled": 1224,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4555,
+      "tli.scaled": 0.4328,
+      "rmsea.scaled": 0.1079,
+      "srmr": 0.1242
+    },
+    "M0_12": {
+      "converged": true,
+      "chisq.scaled": 40712.6916,
+      "df.scaled": 464,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5655,
+      "tli.scaled": 0.5355,
+      "rmsea.scaled": 0.1203,
+      "srmr": 0.1194
+    },
+    "M1": {
+      "converged": true,
+      "chisq.scaled": 35122.1614,
+      "df.scaled": 463,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6258,
+      "tli.scaled": 0.5992,
+      "rmsea.scaled": 0.1117,
+      "srmr": 0.1282
+    },
+    "M1b": {
+      "converged": true,
+      "chisq.scaled": 40712.6926,
+      "df.scaled": 464,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5655,
+      "tli.scaled": 0.5355,
+      "rmsea.scaled": 0.1203,
+      "srmr": 0.1194
+    },
+    "M2": {
+      "converged": true,
+      "chisq.scaled": 70067.9048,
+      "df.scaled": 1220,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5612,
+      "tli.scaled": 0.5414,
+      "rmsea.scaled": 0.097,
+      "srmr": 0.1216
+    },
+    "M2b": {
+      "converged": true,
+      "chisq.scaled": 81156.459,
+      "df.scaled": 1221,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4906,
+      "tli.scaled": 0.468,
+      "rmsea.scaled": 0.1045,
+      "srmr": 0.1249
+    },
+    "M2m": {
+      "converged": true,
+      "chisq.scaled": 62102.7594,
+      "df.scaled": 1212,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6119,
+      "tli.scaled": 0.5918,
+      "rmsea.scaled": 0.0915,
+      "srmr": 0.1174
+    },
+    "M4": {
+      "converged": true,
+      "chisq.scaled": 39609.7234,
+      "df.scaled": 1172,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.755,
+      "tli.scaled": 0.7335,
+      "rmsea.scaled": 0.074,
+      "srmr": 0.0931
+    }
+  },
+  "drop_log": {
+    "weak_loadings": [
+      {
+        "lhs": "D1",
+        "rhs": "E233B",
+        "est.std": 0.196535
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H009",
+        "est.std": -0.1453
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H010",
+        "est.std": 0.143617
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H011",
+        "est.std": 0.157831
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A034",
+        "est.std": 0.265114
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A042",
+        "est.std": 0.297966
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A027",
+        "est.std": -0.015805
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A173",
+        "est.std": 0.11918
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A041",
+        "est.std": 0.120125
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A038",
+        "est.std": 0.202775
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A080_02",
+        "est.std": 0.185859
+      },
+      {
+        "lhs": "D2",
+        "rhs": "E224",
+        "est.std": 0.084792
+      },
+      {
+        "lhs": "D2",
+        "rhs": "E233A",
+        "est.std": -0.121977
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E115",
+        "est.std": 0.276196
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E018",
+        "est.std": 0.07548
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E265_03",
+        "est.std": 0.252912
+      },
+      {
+        "lhs": "D3",
+        "rhs": "F117",
+        "est.std": 0.128905
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E290",
+        "est.std": -0.237782
+      }
+    ],
+    "heywood_cases": "none",
+    "note": "Logged, not applied. Dropping an item is a recorded decision taken once, with its reason, and never to improve fit."
+  },
+  "H1": {
+    "a_deltaCFI_ge_.010": true,
+    "b_M1b_rejected_at_.01": true,
+    "c_phi_le_.85": true,
+    "deltaCFI": 0.0603,
+    "deltaCFI_comparator": "M0_12: one factor over the D1-union-D2 indicators",
+    "p_M1b": 0,
+    "phi_D1_D2": 0.4644,
+    "abs_phi_le_.85": true,
+    "supported": true,
+    "rule": "conjunctive: all three must hold (pre-registration 6.2)",
+    "equivalence_note": "M1b (two factors, phi fixed to 1) and M0_12 (one factor over the same indicators) are equivalent models, which the run confirms: identical df and chi-square agreeing to within rounding. Conditions (a) and (b) are therefore the SAME comparison expressed twice -- once as a fit-index difference and once as a scaled difference test -- not two independent pieces of evidence. The conjunctive rule is applied as registered; this note records that it has two effective parts, not three."
+  },
+  "H2": {
+    "M2b_rejected_at_.01": true,
+    "phi_D1_D3": -0.4793,
+    "p_M2b": 0,
+    "phi_le_.70": true,
+    "abs_phi_D1_D3": 0.4793,
+    "abs_phi_le_.70": true,
+    "signed_and_abs_agree": true,
+    "phi_D2_D3": -0.4279,
+    "constrained_model_note": "M2b fixes phi(D1,D3) to +1. The observed correlation is negative, so the constrained model is a severe misspecification and its rejection is close to guaranteed; the scaled difference test is reported as registered but carries little information on its own. M2b is also inadmissible (non-positive-definite latent covariance matrix), which is a consequence of the constraint rather than of the data -- see code/07_admissibility_check.R. The substantive weight of H2 rests on the magnitude condition, which holds on both the signed and the absolute-value reading.",
+    "supported": true,
+    "deltaCFI_M2_vs_M0_all": 0.1057,
+    "deltaCFI_note": "M2 vs M0 over all 51 indicators: the global single-axis baseline"
+  },
+  "invariance": {
+    "category_collapsing": {
+      "min_per_group": 1,
+      "items": {
+        "E229": {
+          "merges": 5,
+          "categories_before": 10,
+          "categories_after": 5
+        },
+        "E233": {
+          "merges": 5,
+          "categories_before": 10,
+          "categories_after": 5
+        },
+        "E233B": {
+          "merges": 4,
+          "categories_before": 10,
+          "categories_after": 6
+        },
+        "H010": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "H011": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "D060": {
+          "merges": 2,
+          "categories_before": 4,
+          "categories_after": 2
+        },
+        "F118": {
+          "merges": 8,
+          "categories_before": 10,
+          "categories_after": 2
+        },
+        "F120": {
+          "merges": 3,
+          "categories_before": 10,
+          "categories_after": 7
+        },
+        "F121": {
+          "merges": 2,
+          "categories_before": 10,
+          "categories_after": 8
+        },
+        "F122": {
+          "merges": 6,
+          "categories_before": 10,
+          "categories_after": 4
+        },
+        "F132": {
+          "merges": 5,
+          "categories_before": 10,
+          "categories_after": 5
+        },
+        "F123": {
+          "merges": 8,
+          "categories_before": 10,
+          "categories_after": 2
+        },
+        "A173": {
+          "merges": 4,
+          "categories_before": 10,
+          "categories_after": 6
+        },
+        "F114A": {
+          "merges": 8,
+          "categories_before": 10,
+          "categories_after": 2
+        },
+        "F115": {
+          "merges": 7,
+          "categories_before": 10,
+          "categories_after": 3
+        },
+        "F116": {
+          "merges": 8,
+          "categories_before": 10,
+          "categories_after": 2
+        },
+        "F117": {
+          "merges": 7,
+          "categories_before": 10,
+          "categories_after": 3
+        },
+        "D026_05": {
+          "merges": 3,
+          "categories_before": 5,
+          "categories_after": 2
+        },
+        "D026_03": {
+          "merges": 1,
+          "categories_before": 5,
+          "categories_after": 4
+        },
+        "E224": {
+          "merges": 6,
+          "categories_before": 10,
+          "categories_after": 4
+        },
+        "E233A": {
+          "merges": 7,
+          "categories_before": 10,
+          "categories_after": 3
+        },
+        "E116": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E115": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E117": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E228": {
+          "merges": 5,
+          "categories_before": 10,
+          "categories_after": 5
+        },
+        "E225": {
+          "merges": 5,
+          "categories_before": 10,
+          "categories_after": 5
+        },
+        "E226": {
+          "merges": 7,
+          "categories_before": 10,
+          "categories_after": 3
+        },
+        "E235": {
+          "merges": 7,
+          "categories_before": 10,
+          "categories_after": 3
+        },
+        "E265_01": {
+          "merges": 2,
+          "categories_before": 4,
+          "categories_after": 2
+        },
+        "E265_06": {
+          "merges": 2,
+          "categories_before": 4,
+          "categories_after": 2
+        },
+        "E069_07": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E069_11": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E069_06": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E069_08": {
+          "merges": 1,
+          "categories_before": 4,
+          "categories_after": 3
+        },
+        "E290": {
+          "merges": 8,
+          "categories_before": 10,
+          "categories_after": 2
+        }
+      },
+      "applies_to": "multi-group invariance models only; H1/H2 use the registered coding",
+      "reason": "lavaan cannot estimate a multi-group ordinal model when a category is empty in a group; forced deviation, see preregistration Sec. 11"
+    },
+    "perdim": {
+      "D1": {
+        "n_items": 18,
+        "items": ["E229", "E233", "E233B", "H009", "H010", "H011", "A029", "A034", "A042", "A027", "D060", "F118", "F120", "F121", "F122", "F132", "F123", "A173"],
+        "countries": 12,
+        "model": "unidimensional; inter-factor correlations of M2 are absent",
+        "fit": {
+          "configural": {
+            "converged": true,
+            "chisq.scaled": 8030.1737,
+            "df.scaled": 1620,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6362,
+            "tli.scaled": 0.5877,
+            "rmsea.scaled": 0.1252,
+            "srmr": 0.1633
+          },
+          "metric": {
+            "converged": true,
+            "chisq.scaled": 8530.0951,
+            "df.scaled": 1807,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6185,
+            "tli.scaled": 0.6124,
+            "rmsea.scaled": 0.1214,
+            "srmr": 0.1877
+          },
+          "scalar": {
+            "converged": true,
+            "chisq.scaled": 9038.5118,
+            "df.scaled": 2060,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.604,
+            "tli.scaled": 0.647,
+            "rmsea.scaled": 0.1159,
+            "srmr": 0.1801
+          }
+        },
+        "deltas": [
+          {
+            "step": "configural -> metric",
+            "dCFI": -0.0178,
+            "dRMSEA": -0.0038,
+            "holds": false
+          },
+          {
+            "step": "metric -> scalar",
+            "dCFI": -0.0145,
+            "dRMSEA": -0.0056,
+            "holds": false
+          }
+        ],
+        "alignment": {
+          "n_items": 18,
+          "n_groups": 12,
+          "R2_loadings": -1552.122051,
+          "R2_locations": -367.428358,
+          "location_parameter": "mean threshold per item per group (ordinal adaptation; nu is 0 under WLSMV)",
+          "recovery_confirmed": false,
+          "country_comparison_licensed": false,
+          "hard_stop_note": "If country_comparison_licensed is FALSE, the manuscript reports the invariance failure and presents NO country comparison for this dimension. No league table. Pre-registration 6.3."
+        }
+      },
+      "D2": {
+        "n_items": 14,
+        "items": ["A041", "A035", "A038", "F114A", "F115", "F116", "F117", "A080_01", "A080_02", "A071", "D026_05", "D026_03", "E224", "E233A"],
+        "countries": 12,
+        "model": "unidimensional; inter-factor correlations of M2 are absent",
+        "fit": {
+          "configural": {
+            "converged": true,
+            "chisq.scaled": 2339.3045,
+            "df.scaled": 924,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.7011,
+            "tli.scaled": 0.6467,
+            "rmsea.scaled": 0.0779,
+            "srmr": 0.1788
+          },
+          "metric": {
+            "converged": true,
+            "chisq.scaled": 2699.8958,
+            "df.scaled": 1067,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6551,
+            "tli.scaled": 0.647,
+            "rmsea.scaled": 0.0779,
+            "srmr": 0.2067
+          },
+          "scalar": {
+            "converged": true,
+            "chisq.scaled": 2718.0395,
+            "df.scaled": 1089,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6559,
+            "tli.scaled": 0.655,
+            "rmsea.scaled": 0.077,
+            "srmr": 0.2047
+          }
+        },
+        "deltas": [
+          {
+            "step": "configural -> metric",
+            "dCFI": -0.046,
+            "dRMSEA": -0,
+            "holds": false
+          },
+          {
+            "step": "metric -> scalar",
+            "dCFI": 0.0008,
+            "dRMSEA": -0.0009,
+            "holds": true
+          }
+        ],
+        "alignment": {
+          "n_items": 14,
+          "n_groups": 12,
+          "R2_loadings": -453098.87672,
+          "R2_locations": -14507.9512,
+          "location_parameter": "mean threshold per item per group (ordinal adaptation; nu is 0 under WLSMV)",
+          "recovery_confirmed": false,
+          "country_comparison_licensed": false,
+          "hard_stop_note": "If country_comparison_licensed is FALSE, the manuscript reports the invariance failure and presents NO country comparison for this dimension. No league table. Pre-registration 6.3."
+        }
+      },
+      "D3": {
+        "n_items": 20,
+        "items": ["E114", "E116", "E115", "E117", "E228", "E225", "E226", "E235", "E018", "E265_01", "E265_05", "E265_06", "E265_03", "E069_07", "E069_11", "E069_17", "E069_06", "E069_08", "F117", "E290"],
+        "countries": 12,
+        "model": "unidimensional; inter-factor correlations of M2 are absent",
+        "fit": {
+          "configural": {
+            "converged": true,
+            "chisq.scaled": 9025.7139,
+            "df.scaled": 2040,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6726,
+            "tli.scaled": 0.6341,
+            "rmsea.scaled": 0.1166,
+            "srmr": 0.17
+          },
+          "metric": {
+            "converged": true,
+            "chisq.scaled": 10328.9314,
+            "df.scaled": 2249,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6213,
+            "tli.scaled": 0.6161,
+            "rmsea.scaled": 0.1194,
+            "srmr": 0.2015
+          },
+          "scalar": {
+            "converged": true,
+            "chisq.scaled": 10451.6235,
+            "df.scaled": 2337,
+            "pvalue.scaled": 0,
+            "cfi.scaled": 0.6197,
+            "tli.scaled": 0.629,
+            "rmsea.scaled": 0.1174,
+            "srmr": 0.185
+          }
+        },
+        "deltas": [
+          {
+            "step": "configural -> metric",
+            "dCFI": -0.0513,
+            "dRMSEA": 0.0028,
+            "holds": false
+          },
+          {
+            "step": "metric -> scalar",
+            "dCFI": -0.0016,
+            "dRMSEA": -0.002,
+            "holds": true
+          }
+        ],
+        "alignment": {
+          "n_items": 20,
+          "n_groups": 12,
+          "R2_loadings": -7012.85304,
+          "R2_locations": -1741.276409,
+          "location_parameter": "mean threshold per item per group (ordinal adaptation; nu is 0 under WLSMV)",
+          "recovery_confirmed": false,
+          "country_comparison_licensed": false,
+          "hard_stop_note": "If country_comparison_licensed is FALSE, the manuscript reports the invariance failure and presents NO country comparison for this dimension. No league table. Pre-registration 6.3."
+        }
+      }
+    }
+  }
+}

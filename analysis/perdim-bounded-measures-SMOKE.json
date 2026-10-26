@@ -1,0 +1,103 @@
+{
+  "registered": false,
+  "purpose": "per-dimension invariance steps fitted and measured one per process; unidimensional models, so neither the registered three-factor ladder nor the same specification as the subset ladder",
+  "variant": "SMOKE",
+  "steps": {
+    "D2_configural_posvar": {
+      "dimension": "D2",
+      "step": "configural",
+      "converged": true,
+      "n_countries": 12,
+      "n_items": 14,
+      "bounds": "pos.var",
+      "measure_minutes": 0,
+      "cache_file": "SMOKE-both-pdD2-bposvar-configural.rds",
+      "heywood_negative_var": 1,
+      "heywood_cases": [
+        {
+          "country": "UA",
+          "variable": "A071",
+          "theta": -0.025273
+        }
+      ],
+      "chisq.scaled": 2339.3045,
+      "df.scaled": 924,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.7011,
+      "tli.scaled": 0.6467,
+      "rmsea.scaled": 0.0779,
+      "srmr": 0.1788
+    },
+    "D2_configural_standard": {
+      "dimension": "D2",
+      "step": "configural",
+      "converged": true,
+      "n_countries": 12,
+      "n_items": 14,
+      "bounds": "standard",
+      "measure_minutes": 0,
+      "cache_file": "SMOKE-both-pdD2-bstandard-configural.rds",
+      "heywood_negative_var": 0,
+      "heywood_cases": [],
+      "chisq.scaled": 2337.5992,
+      "df.scaled": 924,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.7014,
+      "tli.scaled": 0.6471,
+      "rmsea.scaled": 0.0779,
+      "srmr": 0.1788
+    },
+    "D2_configural_wide": {
+      "dimension": "D2",
+      "step": "configural",
+      "converged": true,
+      "n_countries": 12,
+      "n_items": 14,
+      "bounds": "wide",
+      "measure_minutes": 0,
+      "cache_file": "SMOKE-both-pdD2-bwide-configural.rds",
+      "heywood_negative_var": 1,
+      "heywood_cases": [
+        {
+          "country": "UA",
+          "variable": "A071",
+          "theta": -0.025261
+        }
+      ],
+      "chisq.scaled": 2339.305,
+      "df.scaled": 924,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.7011,
+      "tli.scaled": 0.6467,
+      "rmsea.scaled": 0.0779,
+      "srmr": 0.1788
+    },
+    "D2_configural_posov.var": {
+      "dimension": "D2",
+      "step": "configural",
+      "converged": true,
+      "n_countries": 12,
+      "n_items": 14,
+      "bounds": "pos.ov.var",
+      "measure_minutes": 0,
+      "cache_file": "SMOKE-both-pdD2-bposov.var-configural.rds",
+      "heywood_negative_var": 1,
+      "heywood_cases": [
+        {
+          "country": "UA",
+          "variable": "A071",
+          "theta": -0.025273
+        }
+      ],
+      "chisq.scaled": 2339.3045,
+      "df.scaled": 924,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.7011,
+      "tli.scaled": 0.6467,
+      "rmsea.scaled": 0.0779,
+      "srmr": 0.1788
+    }
+  },
+  "run_utc": "2026-08-15 06:04:58 UTC",
+  "n_countries": 12
+}

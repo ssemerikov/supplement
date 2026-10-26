@@ -1,0 +1,965 @@
+{
+  "check": "contamination (registered check 4)",
+  "registered_in": "preregistration.md 7.2 item 4; design delphi-design.md 8.3",
+  "run_utc": "2026-08-11T06:27:42+00:00",
+  "run_after_cfa": true,
+  "seed": 20260810,
+  "n_real": 6,
+  "n_fabricated": 6,
+  "presentation_order": [
+    "R2",
+    "R3",
+    "C1",
+    "R4",
+    "C4",
+    "R5",
+    "C3",
+    "C2",
+    "C5",
+    "C6",
+    "R1",
+    "R6"
+  ],
+  "items": [
+    {
+      "id": "R1",
+      "variable": "E229",
+      "text": "Democracy: Civil rights protect people's liberty against oppression",
+      "truth": "REAL"
+    },
+    {
+      "id": "R2",
+      "variable": "F118",
+      "text": "Justifiable: Homosexuality",
+      "truth": "REAL"
+    },
+    {
+      "id": "R3",
+      "variable": "A029",
+      "text": "Important child qualities: Independence",
+      "truth": "REAL"
+    },
+    {
+      "id": "R4",
+      "variable": "E114",
+      "text": "Having a strong leader who does not have to bother with parliament and elections",
+      "truth": "REAL"
+    },
+    {
+      "id": "R5",
+      "variable": "G007_33_B",
+      "text": "Trust: People you know personally",
+      "truth": "REAL"
+    },
+    {
+      "id": "R6",
+      "variable": "D026_05",
+      "text": "It is a child's duty to take care of an ill parent",
+      "truth": "REAL"
+    },
+    {
+      "id": "C1",
+      "variable": null,
+      "text": "Democracy: Public officials publish their reasoning before taking major decisions",
+      "truth": "FABRICATED"
+    },
+    {
+      "id": "C2",
+      "variable": null,
+      "text": "Justifiable: Concealing a conflict of interest from a professional body",
+      "truth": "FABRICATED"
+    },
+    {
+      "id": "C3",
+      "variable": null,
+      "text": "Important child qualities: Willingness to revise a strongly held belief",
+      "truth": "FABRICATED"
+    },
+    {
+      "id": "C4",
+      "variable": null,
+      "text": "Having experts decide policy questions without consulting elected representatives",
+      "truth": "FABRICATED"
+    },
+    {
+      "id": "C5",
+      "variable": null,
+      "text": "Trust: People who belong to a profession you have dealt with",
+      "truth": "FABRICATED"
+    },
+    {
+      "id": "C6",
+      "variable": null,
+      "text": "It is a citizen's duty to correct a public error they did not cause",
+      "truth": "FABRICATED"
+    }
+  ],
+  "n_attempted": 12,
+  "n_accepted": 12,
+  "draws": [
+    {
+      "channel": "ollama",
+      "model": "gpt-oss:120b-cloud",
+      "endpoint": "ollama:gpt-oss:120b-cloud",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.96
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.92
+          },
+          {
+            "id": "C1",
+            "provenance": "ESS",
+            "confidence": 0.75
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.88
+          },
+          {
+            "id": "C4",
+            "provenance": "EVSWVS",
+            "confidence": 0.85
+          },
+          {
+            "id": "R5",
+            "provenance": "ESS",
+            "confidence": 0.96
+          },
+          {
+            "id": "C3",
+            "provenance": "EVSWVS",
+            "confidence": 0.82
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "C5",
+            "provenance": "ESS",
+            "confidence": 0.96
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.7
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "channel": "ollama",
+      "model": "gpt-oss:120b-cloud",
+      "endpoint": "ollama:gpt-oss:120b-cloud",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.88
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.8
+          },
+          {
+            "id": "C1",
+            "provenance": "ESS",
+            "confidence": 0.78
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.86
+          },
+          {
+            "id": "C4",
+            "provenance": "EVSWVS",
+            "confidence": 0.72
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.96
+          },
+          {
+            "id": "C3",
+            "provenance": "EVSWVS",
+            "confidence": 0.75
+          },
+          {
+            "id": "C2",
+            "provenance": "EVSWVS",
+            "confidence": 0.82
+          },
+          {
+            "id": "C5",
+            "provenance": "EVSWVS",
+            "confidence": 0.91
+          },
+          {
+            "id": "C6",
+            "provenance": "EVSWVS",
+            "confidence": 0.7
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.84
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.79
+          }
+        ]
+      }
+    },
+    {
+      "channel": "ollama",
+      "model": "gemma4:31b-cloud",
+      "endpoint": "ollama:gemma4:31b-cloud",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "channel": "ollama",
+      "model": "gemma4:31b-cloud",
+      "endpoint": "ollama:gemma4:31b-cloud",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.95
+          },
+          {
+            "id": "R4",
+            "provenance": "ESS",
+            "confidence": 1.0
+          },
+          {
+            "id": "C4",
+            "provenance": "ESS",
+            "confidence": 1.0
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "R1",
+            "provenance": "ESS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 1.0
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/claude-sonnet-4.5",
+      "endpoint": "omniroute:kiro/claude-sonnet-4.5",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C4",
+            "provenance": "EVSWVS",
+            "confidence": 0.7
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.85
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.85
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/claude-sonnet-4.5",
+      "endpoint": "omniroute:kiro/claude-sonnet-4.5",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C4",
+            "provenance": "EVSWVS",
+            "confidence": 0.7
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.85
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "R1",
+            "provenance": "ESS",
+            "confidence": 0.65
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.75
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/claude-haiku-4.5",
+      "endpoint": "omniroute:kiro/claude-haiku-4.5",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.92
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.93
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.88
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.82
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.78
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.91
+          },
+          {
+            "id": "R6",
+            "provenance": "NONE",
+            "confidence": 0.8
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/claude-haiku-4.5",
+      "endpoint": "omniroute:kiro/claude-haiku-4.5",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.92
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.88
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.82
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.78
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.7
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.89
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.87
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/glm-5",
+      "endpoint": "omniroute:kiro/glm-5",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.97
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.96
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "R1",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.92
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/glm-5",
+      "endpoint": "omniroute:kiro/glm-5",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "C4",
+            "provenance": "EVSWVS",
+            "confidence": 0.7
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.75
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.9
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/deepseek-3.2",
+      "endpoint": "omniroute:kiro/deepseek-3.2",
+      "persona": "psychometrician",
+      "rep": 0,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.99
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.99
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.75
+          },
+          {
+            "id": "R5",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.8
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.7
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "R1",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.97
+          }
+        ]
+      }
+    },
+    {
+      "channel": "omniroute",
+      "model": "kiro/deepseek-3.2",
+      "endpoint": "omniroute:kiro/deepseek-3.2",
+      "persona": "comparativist",
+      "rep": 1,
+      "accepted": true,
+      "response": {
+        "attributions": [
+          {
+            "id": "R2",
+            "provenance": "EVSWVS",
+            "confidence": 0.98
+          },
+          {
+            "id": "R3",
+            "provenance": "EVSWVS",
+            "confidence": 0.95
+          },
+          {
+            "id": "C1",
+            "provenance": "NONE",
+            "confidence": 0.92
+          },
+          {
+            "id": "R4",
+            "provenance": "EVSWVS",
+            "confidence": 0.97
+          },
+          {
+            "id": "C4",
+            "provenance": "NONE",
+            "confidence": 0.88
+          },
+          {
+            "id": "R5",
+            "provenance": "ESS",
+            "confidence": 0.96
+          },
+          {
+            "id": "C3",
+            "provenance": "NONE",
+            "confidence": 0.9
+          },
+          {
+            "id": "C2",
+            "provenance": "NONE",
+            "confidence": 0.85
+          },
+          {
+            "id": "C5",
+            "provenance": "NONE",
+            "confidence": 0.87
+          },
+          {
+            "id": "C6",
+            "provenance": "NONE",
+            "confidence": 0.84
+          },
+          {
+            "id": "R1",
+            "provenance": "ESS",
+            "confidence": 0.94
+          },
+          {
+            "id": "R6",
+            "provenance": "EVSWVS",
+            "confidence": 0.96
+          }
+        ]
+      }
+    }
+  ]
+}

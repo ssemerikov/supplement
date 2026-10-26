@@ -1,0 +1,1772 @@
+[
+ [
+  "ollama",
+  "gpt-oss:120b-cloud",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 80
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 70
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 75
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 65
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 85
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I10",
+     "dimension": "D1",
+     "confidence": 70
+    },
+    {
+     "id": "I11",
+     "dimension": "D1",
+     "confidence": 60
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 75
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "gpt-oss:120b-cloud",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 90
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I03",
+     "dimension": "D3",
+     "confidence": 70
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 85
+    },
+    {
+     "id": "I06",
+     "dimension": "D3",
+     "confidence": 75
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I10",
+     "dimension": "D3",
+     "confidence": 75
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 80
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "gemma4:31b-cloud",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 95
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 90
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 85
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I06",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 65
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I11",
+     "dimension": "REJECT",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 60
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "gemma4:31b-cloud",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 100
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 90
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 100
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I06",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 100
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 90
+    },
+    {
+     "id": "I11",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 60
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "nemotron-3-ultra:cloud",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 90
+    },
+    {
+     "id": "I03",
+     "dimension": "D3",
+     "confidence": 70
+    },
+    {
+     "id": "I04",
+     "dimension": "D1",
+     "confidence": 75
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I06",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 85
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 80
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "nemotron-3-ultra:cloud",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 90
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 95
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 85
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I06",
+     "dimension": "REJECT",
+     "confidence": 70
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 98
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I11",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 80
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "minimax-m3:cloud",
+  "T1",
+  0,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "minimax-m3:cloud",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 92
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 93
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 82
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 82
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I06",
+     "dimension": "D3",
+     "confidence": 68
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 88
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 96
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 93
+    },
+    {
+     "id": "I10",
+     "dimension": "D1",
+     "confidence": 60
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 72
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 72
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-haiku-4.5",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 95
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 92
+    },
+    {
+     "id": "I03",
+     "dimension": "D3",
+     "confidence": 88
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 93
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 78
+    },
+    {
+     "id": "I07",
+     "dimension": "REJECT",
+     "confidence": 0
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 88
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 0
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 82
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 0
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-haiku-4.5",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 92
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 88
+    },
+    {
+     "id": "I03",
+     "dimension": "D3",
+     "confidence": 85
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 90
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 93
+    },
+    {
+     "id": "I06",
+     "dimension": "D3",
+     "confidence": 78
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 75
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 89
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 87
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 0
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 86
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 0
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-sonnet-4.5",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 65
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 75
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 85
+    },
+    {
+     "id": "I11",
+     "dimension": "D1",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 65
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-sonnet-4.5",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 65
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 70
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 60
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 55
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I11",
+     "dimension": "D1",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 60
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/glm-5",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 75
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 70
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 55
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I06",
+     "dimension": "REJECT",
+     "confidence": 65
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I09",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I11",
+     "dimension": "REJECT",
+     "confidence": 60
+    },
+    {
+     "id": "I12",
+     "dimension": "D2",
+     "confidence": 65
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/glm-5",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 70
+    },
+    {
+     "id": "I04",
+     "dimension": "D1",
+     "confidence": 65
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 75
+    },
+    {
+     "id": "I06",
+     "dimension": "REJECT",
+     "confidence": 65
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 70
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I09",
+     "dimension": "REJECT",
+     "confidence": 75
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I11",
+     "dimension": "D3",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 85
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/deepseek-3.2",
+  "T1",
+  0,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 95
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I03",
+     "dimension": "REJECT",
+     "confidence": 90
+    },
+    {
+     "id": "I04",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 90
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 75
+    },
+    {
+     "id": "I07",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I09",
+     "dimension": "REJECT",
+     "confidence": 85
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 80
+    },
+    {
+     "id": "I11",
+     "dimension": "D1",
+     "confidence": 70
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 85
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/deepseek-3.2",
+  "T1",
+  1,
+  {
+   "assignments": [
+    {
+     "id": "I01",
+     "dimension": "D1",
+     "confidence": 90
+    },
+    {
+     "id": "I02",
+     "dimension": "D2",
+     "confidence": 85
+    },
+    {
+     "id": "I03",
+     "dimension": "D3",
+     "confidence": 60
+    },
+    {
+     "id": "I04",
+     "dimension": "D2",
+     "confidence": 75
+    },
+    {
+     "id": "I05",
+     "dimension": "D3",
+     "confidence": 80
+    },
+    {
+     "id": "I06",
+     "dimension": "D1",
+     "confidence": 70
+    },
+    {
+     "id": "I07",
+     "dimension": "REJECT",
+     "confidence": 90
+    },
+    {
+     "id": "I08",
+     "dimension": "D3",
+     "confidence": 95
+    },
+    {
+     "id": "I09",
+     "dimension": "D2",
+     "confidence": 80
+    },
+    {
+     "id": "I10",
+     "dimension": "REJECT",
+     "confidence": 85
+    },
+    {
+     "id": "I11",
+     "dimension": "D1",
+     "confidence": 85
+    },
+    {
+     "id": "I12",
+     "dimension": "REJECT",
+     "confidence": 95
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "gpt-oss:120b-cloud",
+  "T5",
+  0,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "gpt-oss:120b-cloud",
+  "T5",
+  1,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "gemma4:31b-cloud",
+  "T5",
+  0,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 8
+    },
+    {
+     "id": "D2",
+     "face_validity": 7
+    },
+    {
+     "id": "D3",
+     "face_validity": 9
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 9
+    },
+    {
+     "id": "I02",
+     "relevance": 8
+    },
+    {
+     "id": "I03",
+     "relevance": 4
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 7
+    },
+    {
+     "id": "I06",
+     "relevance": 5
+    },
+    {
+     "id": "I07",
+     "relevance": 6
+    },
+    {
+     "id": "I08",
+     "relevance": 9
+    },
+    {
+     "id": "I09",
+     "relevance": 5
+    },
+    {
+     "id": "I10",
+     "relevance": 4
+    },
+    {
+     "id": "I11",
+     "relevance": 6
+    },
+    {
+     "id": "I12",
+     "relevance": 3
+    }
+   ]
+  }
+ ],
+ [
+  "ollama",
+  "gemma4:31b-cloud",
+  "T5",
+  1,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "nemotron-3-ultra:cloud",
+  "T5",
+  0,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "nemotron-3-ultra:cloud",
+  "T5",
+  1,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "minimax-m3:cloud",
+  "T5",
+  0,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "ollama",
+  "minimax-m3:cloud",
+  "T5",
+  1,
+  {
+   "__err": "HTTP Error 429: Too Many Requests"
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-haiku-4.5",
+  "T5",
+  0,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 6
+    },
+    {
+     "id": "D3",
+     "face_validity": 8
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 8
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 5
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 7
+    },
+    {
+     "id": "I06",
+     "relevance": 7
+    },
+    {
+     "id": "I07",
+     "relevance": 6
+    },
+    {
+     "id": "I08",
+     "relevance": 8
+    },
+    {
+     "id": "I09",
+     "relevance": 4
+    },
+    {
+     "id": "I10",
+     "relevance": 5
+    },
+    {
+     "id": "I11",
+     "relevance": 8
+    },
+    {
+     "id": "I12",
+     "relevance": 2
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-haiku-4.5",
+  "T5",
+  1,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 6
+    },
+    {
+     "id": "D3",
+     "face_validity": 5
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 8
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 4
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 5
+    },
+    {
+     "id": "I06",
+     "relevance": 7
+    },
+    {
+     "id": "I07",
+     "relevance": 5
+    },
+    {
+     "id": "I08",
+     "relevance": 8
+    },
+    {
+     "id": "I09",
+     "relevance": 5
+    },
+    {
+     "id": "I10",
+     "relevance": 3
+    },
+    {
+     "id": "I11",
+     "relevance": 8
+    },
+    {
+     "id": "I12",
+     "relevance": 2
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-sonnet-4.5",
+  "T5",
+  0,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 8
+    },
+    {
+     "id": "D3",
+     "face_validity": 6
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 6
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 5
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 6
+    },
+    {
+     "id": "I06",
+     "relevance": 5
+    },
+    {
+     "id": "I07",
+     "relevance": 5
+    },
+    {
+     "id": "I08",
+     "relevance": 7
+    },
+    {
+     "id": "I09",
+     "relevance": 5
+    },
+    {
+     "id": "I10",
+     "relevance": 4
+    },
+    {
+     "id": "I11",
+     "relevance": 6
+    },
+    {
+     "id": "I12",
+     "relevance": 3
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/claude-sonnet-4.5",
+  "T5",
+  1,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 8
+    },
+    {
+     "id": "D3",
+     "face_validity": 6
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 6
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 5
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 6
+    },
+    {
+     "id": "I06",
+     "relevance": 5
+    },
+    {
+     "id": "I07",
+     "relevance": 5
+    },
+    {
+     "id": "I08",
+     "relevance": 7
+    },
+    {
+     "id": "I09",
+     "relevance": 6
+    },
+    {
+     "id": "I10",
+     "relevance": 4
+    },
+    {
+     "id": "I11",
+     "relevance": 6
+    },
+    {
+     "id": "I12",
+     "relevance": 3
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/glm-5",
+  "T5",
+  0,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 5
+    },
+    {
+     "id": "D3",
+     "face_validity": 8
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 8
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 3
+    },
+    {
+     "id": "I04",
+     "relevance": 6
+    },
+    {
+     "id": "I05",
+     "relevance": 7
+    },
+    {
+     "id": "I06",
+     "relevance": 4
+    },
+    {
+     "id": "I07",
+     "relevance": 5
+    },
+    {
+     "id": "I08",
+     "relevance": 8
+    },
+    {
+     "id": "I09",
+     "relevance": 4
+    },
+    {
+     "id": "I10",
+     "relevance": 3
+    },
+    {
+     "id": "I11",
+     "relevance": 7
+    },
+    {
+     "id": "I12",
+     "relevance": 2
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/glm-5",
+  "T5",
+  1,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 6
+    },
+    {
+     "id": "D3",
+     "face_validity": 8
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 8
+    },
+    {
+     "id": "I02",
+     "relevance": 7
+    },
+    {
+     "id": "I03",
+     "relevance": 3
+    },
+    {
+     "id": "I04",
+     "relevance": 5
+    },
+    {
+     "id": "I05",
+     "relevance": 6
+    },
+    {
+     "id": "I06",
+     "relevance": 4
+    },
+    {
+     "id": "I07",
+     "relevance": 6
+    },
+    {
+     "id": "I08",
+     "relevance": 8
+    },
+    {
+     "id": "I09",
+     "relevance": 3
+    },
+    {
+     "id": "I10",
+     "relevance": 2
+    },
+    {
+     "id": "I11",
+     "relevance": 5
+    },
+    {
+     "id": "I12",
+     "relevance": 2
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/deepseek-3.2",
+  "T5",
+  0,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 8
+    },
+    {
+     "id": "D2",
+     "face_validity": 6
+    },
+    {
+     "id": "D3",
+     "face_validity": 7
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 9
+    },
+    {
+     "id": "I02",
+     "relevance": 8
+    },
+    {
+     "id": "I03",
+     "relevance": 3
+    },
+    {
+     "id": "I04",
+     "relevance": 2
+    },
+    {
+     "id": "I05",
+     "relevance": 9
+    },
+    {
+     "id": "I06",
+     "relevance": 5
+    },
+    {
+     "id": "I07",
+     "relevance": 4
+    },
+    {
+     "id": "I08",
+     "relevance": 9
+    },
+    {
+     "id": "I09",
+     "relevance": 1
+    },
+    {
+     "id": "I10",
+     "relevance": 3
+    },
+    {
+     "id": "I11",
+     "relevance": 6
+    },
+    {
+     "id": "I12",
+     "relevance": 2
+    }
+   ]
+  }
+ ],
+ [
+  "omniroute",
+  "kiro/deepseek-3.2",
+  "T5",
+  1,
+  {
+   "definitions": [
+    {
+     "id": "D1",
+     "face_validity": 7
+    },
+    {
+     "id": "D2",
+     "face_validity": 6
+    },
+    {
+     "id": "D3",
+     "face_validity": 5
+    }
+   ],
+   "items": [
+    {
+     "id": "I01",
+     "relevance": 8
+    },
+    {
+     "id": "I02",
+     "relevance": 6
+    },
+    {
+     "id": "I03",
+     "relevance": 2
+    },
+    {
+     "id": "I04",
+     "relevance": 3
+    },
+    {
+     "id": "I05",
+     "relevance": 9
+    },
+    {
+     "id": "I06",
+     "relevance": 7
+    },
+    {
+     "id": "I07",
+     "relevance": 4
+    },
+    {
+     "id": "I08",
+     "relevance": 9
+    },
+    {
+     "id": "I09",
+     "relevance": 3
+    },
+    {
+     "id": "I10",
+     "relevance": 4
+    },
+    {
+     "id": "I11",
+     "relevance": 8
+    },
+    {
+     "id": "I12",
+     "relevance": 1
+    }
+   ]
+  }
+ ]
+]

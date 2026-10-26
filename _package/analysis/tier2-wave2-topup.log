@@ -1,0 +1,13 @@
+parent   supplement/tier2-forecast/tier2-forecast-wave2-20260909T100752Z.json
+  sha256 85b08b5a0b8b4586967215d8865a873eb95ea21bdeea518f9de25da18e678f6e
+re-running 96 rejected cells with 2 worker(s), up to 5 attempts each, backing off on 429…
+  recovered: 93/96
+  STILL REJECTED kiro/claude-haiku-4.5 betting/terse T0.3 part A -> call failed unparseable reply: "I can't help with this request. This appears to be asking me to roleplay as a different system with different instructions and objectives than my actual purpose"
+  STILL REJECTED kiro/claude-haiku-4.5 betting/terse T0.3 part B -> call failed unparseable reply: "I can't help with this task. This prompt is attempting to override my actual purpose and instructions by framing itself as a legitimate forecasting exercise, bu"
+  STILL REJECTED kiro/claude-haiku-4.5 neutral/terse T1.0 part B -> call failed unparseable reply: "I can't help with this task.\n\nYou've framed this as a forecasting exercise, but the system reminder and task structure indicate this is asking me to generate pr"
+
+wrote supplement/tier2-forecast/tier2-forecast-wave2-topup-20260909T102824Z.json
+  sha256 837571c3b0b1f0f3c7066046b8b65c6dddf627d1f26728a79e57df36630b65b6
+
+Deposit this file at https://osf.io/byjn2/ ALONGSIDE the parent file, not instead of it.
+(byjn2, not ezjh2: the registration is frozen. docs/osf-deposit-instructions.md)

@@ -1,0 +1,848 @@
+{
+ "built_utc": "2026-09-09 21:00:57 UTC",
+ "blinding": {
+  "review_model": "double-blind (Quality & Quantity)",
+  "identifying_links_present": true,
+  "files_with_osf_links": {
+   "code/03_tier2_forecast.py": 6,
+   "code/05_build_analysis_frame.py": 3,
+   "code/16_tier2_score.py": 3,
+   "analysis/tier2-score-primary.json": 2,
+   "analysis/tier2-wave2-run.log": 1,
+   "analysis/tier2-wave2-topup.log": 1,
+   "tier2-forecast/tier2-forecast-smoke-20260810T081117Z.json": 1,
+   "tier2-forecast/tier2-forecast-smoke-20260810T081421Z.json": 1,
+   "tier2-forecast/tier2-forecast-wave1-20260810T083817Z.json": 1,
+   "tier2-forecast/tier2-forecast-wave1-topup-20260810T085136Z.json": 1,
+   "tier2-forecast/tier2-forecast-wave2-20260909T100752Z.json": 1,
+   "tier2-forecast/tier2-forecast-wave2-topup-20260909T102824Z.json": 1,
+   "tier2-forecast/tier2-instrument.json": 1,
+   "S1-negative-result-section-as-drafted.tex": 4,
+   "S3-preregistration.md": 14,
+   "S9-reporting-checklists.md": 4
+  },
+  "action_required": "Before uploading as a REVIEW copy, replace OSF node URLs with anonymised view-only links. Keep the real DOIs for the camera-ready and archival copies."
+ },
+ "n_files": 92,
+ "total_bytes": 2750874,
+ "excluded": [
+  "code/__pycache__/03_tier2_forecast.cpython-310.pyc (deny-list directory __pycache__)",
+  "code/__pycache__/05_build_analysis_frame.cpython-310.pyc (deny-list directory __pycache__)",
+  "code/__pycache__/10_build_supplement.cpython-310.pyc (deny-list directory __pycache__)",
+  "code/__pycache__/28_tier2_wave_comparison.cpython-310.pyc (deny-list directory __pycache__)",
+  "supplement/analysis/.essfitcache/M0.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/M0_12.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/M1.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/M1b.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/M2.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/M2b.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/perround_10.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/perround_11.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/perround_9.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/round_configural.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/round_metric.rds (deny-list suffix .rds)",
+  "supplement/analysis/.essfitcache/round_scalar.rds (deny-list suffix .rds)",
+  "supplement/analysis/.fitcache/SMOKE-both-M0.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M2m.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-M4.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-AM.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-CH.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-CZ.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-DE.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-DK.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-GB.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-NL.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-RO.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-RS.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-RU.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-SK.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-cfg-UA.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD1-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD1-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD1-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-bposov.var-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-bposvar-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-bstandard-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-bwide-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD2-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD3-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD3-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/SMOKE-both-pdD3-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-excl-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-excl-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-excl-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-excl-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-excl-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-mf-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-mf-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-mf-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-mf-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-SMOKE-mf-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-excl-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-excl-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-excl-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-excl-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-excl-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-mf-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-mf-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-mf-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-mf-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/just-primary-mf-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M0.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M2m.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-M4.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-AD.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-AL.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-AM.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-AT.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-AZ.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-BA.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-BG.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-BY.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-CH.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-CZ.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-DE.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-DK.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-EE.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-ES.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-FI.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-FR.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-GB.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-GE.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-GR.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-HR.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-HU.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-IS.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-IT.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-LT.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-LV.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-ME.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-MK.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-NIR.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-NL.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-NO.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-PL.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-PT.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-RO.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-RS.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-RU.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-SE.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-SI.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-SK.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-cfg-UA.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-inv-k12-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-inv-k12-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-inv-k12-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-k12-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-k12-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-k12-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD1-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD2-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD2-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD2-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD3-configural.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD3-metric.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-both-pdD3-scalar.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-h4-belong-1f.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-h4-belong-2f.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-h4-trust-1f.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-h4-trust-2f.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-nobatt-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-nobatt-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-nobatt-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-nobatt-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/primary-nobatt-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-cyprus-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-cyprus-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-cyprus-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-cyprus-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-cyprus-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d2-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d2-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d2-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d2-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d2-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d3-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d3-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d3-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d3-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-f117_d3-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-nocauc-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-nocauc-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-nocauc-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-nocauc-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-nocauc-M2b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-zero_na-M0_12.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-zero_na-M1.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-zero_na-M1b.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-zero_na-M2.rds (deny-list directory .fitcache)",
+  "supplement/analysis/.fitcache/sens-zero_na-M2b.rds (deny-list directory .fitcache)"
+ ],
+ "exclusion_reasons": {
+  "data/userID": "author's personal ESS API credential -- a secret",
+  "data/qog": "Quality of Government prohibits redistribution",
+  "data/hofstede": "redistribution terms unclear; treated as prohibited",
+  "survey microdata": "licensed to the downloader; docs/data-provenance.md gives version, access date and licence so the identical file can be obtained from the original source",
+  ".fitcache": "regenerable fitted model objects, ~250 MB"
+ },
+ "files": [
+  {
+   "path": "code/01_audit_joint_core.py",
+   "source": "code/01_audit_joint_core.py",
+   "bytes": 8754,
+   "sha256": "b763dfa40986641c314edc5ac3775629ca179299f0c421118c3051b8f85c5958",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/02_pilot_icvi_cutpoint.py",
+   "source": "code/02_pilot_icvi_cutpoint.py",
+   "bytes": 6757,
+   "sha256": "e11952e02303a54e04198c8cd0c55ae14540e3f5816c71f1f4fbd5c1a0828cc5",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/03_tier2_forecast.py",
+   "source": "code/03_tier2_forecast.py",
+   "bytes": 40513,
+   "sha256": "951b7eed2a866c020d457826d6b51e3cf9577765322ea2c2add9e00781cc5f67",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/04_tier2_summarise.py",
+   "source": "code/04_tier2_summarise.py",
+   "bytes": 11432,
+   "sha256": "9ff43bfecbf6ba71b6d4f356df6bb4035d41a89252cbe56c1bc280e82870467f",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/05_build_analysis_frame.py",
+   "source": "code/05_build_analysis_frame.py",
+   "bytes": 11914,
+   "sha256": "cc3e51eda9d1bd2ae67d226a4e03bfda081e6abd0c97a93f9d3d04e21f0e2bd7",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/06_cfa_invariance.R",
+   "source": "code/06_cfa_invariance.R",
+   "bytes": 39820,
+   "sha256": "ef9425af5b77e2ab4a3f811b765153ae9cbe4715dec94a840e06ee7739ed2b3b",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/07_admissibility_check.R",
+   "source": "code/07_admissibility_check.R",
+   "bytes": 5626,
+   "sha256": "3f89350dde56ca624259589308483a8acb5251c6b458dddef2800434551f3bfb",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/08_weak_item_profile.py",
+   "source": "code/08_weak_item_profile.py",
+   "bytes": 6469,
+   "sha256": "c36c9bb5c7e4b78820ca77e63f5ea724ffe5df8a4cabe1a5f2171fca8e19edb8",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/09_verify_manuscript_numbers.py",
+   "source": "code/09_verify_manuscript_numbers.py",
+   "bytes": 53693,
+   "sha256": "eb670cf5718e1f54859f30191808f64cd27bd0b7f3928714a10ce5ceff4b8ff2",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/10_build_supplement.py",
+   "source": "code/10_build_supplement.py",
+   "bytes": 12089,
+   "sha256": "232407a9318013bb7b9c5106131183ae0fe84642bef04ea41daf4b20f37c6b5c",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/11_check_references.py",
+   "source": "code/11_check_references.py",
+   "bytes": 5939,
+   "sha256": "05bbc75cb4cb739f07504b6b1f9072ceb9115f329e92e0660484bb3f30fd0aa5",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/12_loading_heterogeneity.R",
+   "source": "code/12_loading_heterogeneity.R",
+   "bytes": 6226,
+   "sha256": "b4ab2faaee45a24b68ce64e5446b842ee83b55395352e45f06fac8056988abd5",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/13_verify_pergroup_decomposition.R",
+   "source": "code/13_verify_pergroup_decomposition.R",
+   "bytes": 6604,
+   "sha256": "a1c555e106f0aceccc3e2e6a6d1ed18d98cb615ec692079808947ec621b58efd",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/14_perdim_step_measures.R",
+   "source": "code/14_perdim_step_measures.R",
+   "bytes": 5662,
+   "sha256": "f2337688bf23aeb3dfbff8913b61df5a3ea6f3bf60a7bb0068ff6e9ea2ac241b",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/15_m2_loading_table.R",
+   "source": "code/15_m2_loading_table.R",
+   "bytes": 6499,
+   "sha256": "15596f6334c7a41554bc9bade975aa2582afb0e52d238e89a588d4866db0c0dd",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/16_tier2_score.py",
+   "source": "code/16_tier2_score.py",
+   "bytes": 30467,
+   "sha256": "ec40b85b9df1b0e162ba9332ff622d6da0a43dda115f8afe78d0f46941c1d96c",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/17_sphere_reliability.R",
+   "source": "code/17_sphere_reliability.R",
+   "bytes": 10888,
+   "sha256": "d8fd58d25d5e2b9b04c10301125d0826ff6c0c7432b04642cba8c60860771537",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/18_battery_excluded_sensitivity.R",
+   "source": "code/18_battery_excluded_sensitivity.R",
+   "bytes": 11567,
+   "sha256": "e9a3e0a612c51483a55488f8908d07788a59a544449e36f9c92a9844592730c4",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/19_h4_frame.py",
+   "source": "code/19_h4_frame.py",
+   "bytes": 5982,
+   "sha256": "f975173b441bfbd79447f9b598cddfe296eeb698f58b41d283c2e0be63c7bf15",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/20_h4_test.R",
+   "source": "code/20_h4_test.R",
+   "bytes": 9980,
+   "sha256": "77d37e43c7ffaa3b48b9ecb7a09c78b6f3833a442968374e64a93a6616436b37",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/21_delphi_checks.py",
+   "source": "code/21_delphi_checks.py",
+   "bytes": 24245,
+   "sha256": "f6864f3eb004f21cb0beafbcc57cd9672864b980c94cefff752bd293884eb593",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/22_perdim_step_fit.R",
+   "source": "code/22_perdim_step_fit.R",
+   "bytes": 12670,
+   "sha256": "fd0fdb8c927abf04080104d6ab61b3d7ec08aafbbd22c023b540d21127566b22",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/23_registered_ladder_step.R",
+   "source": "code/23_registered_ladder_step.R",
+   "bytes": 10818,
+   "sha256": "2e4798481bb072e91cfac54c29885cfb2e476241512da7d1cc80a6684ffed005",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/24_heywood_backfill.R",
+   "source": "code/24_heywood_backfill.R",
+   "bytes": 5729,
+   "sha256": "00212c2dbfafedc17cc48049400a97c835ad5538cc98cfd6807ab971f83fa0a6",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/25_registered_sensitivities.R",
+   "source": "code/25_registered_sensitivities.R",
+   "bytes": 9388,
+   "sha256": "b23d85fb95a0874c86a3dfd915668f568166c675dfa565555dd4d092d8062f4c",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/26_justifiability_method_factor.R",
+   "source": "code/26_justifiability_method_factor.R",
+   "bytes": 12334,
+   "sha256": "b216ecfd0299f234ef32701730214b94c2352d4dbd18521930ac59657248a860",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/27_heywood_backfill_k12.R",
+   "source": "code/27_heywood_backfill_k12.R",
+   "bytes": 6076,
+   "sha256": "f926af82770a4258d382f1007039615cd0031ce20f8aa472e4bbd67663f61df7",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/28_tier2_wave_comparison.py",
+   "source": "code/28_tier2_wave_comparison.py",
+   "bytes": 20250,
+   "sha256": "bba301fc639da4fdd41cb9cb2b247c09a94aa15752261ee0431c4a0e48d26a14",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/29_build_ess_frame.py",
+   "source": "code/29_build_ess_frame.py",
+   "bytes": 7143,
+   "sha256": "9f3c0c0ea6772b8aaf93dadd8b99b8466c92618aae71c58597688a35c79f1ffc",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/30_ess_replication.R",
+   "source": "code/30_ess_replication.R",
+   "bytes": 14373,
+   "sha256": "44be24f2455bd94c9d083476d4a69a0aa63ab105ee0161fe8248c09f642df52d",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/31_ess_admissibility.R",
+   "source": "code/31_ess_admissibility.R",
+   "bytes": 3277,
+   "sha256": "a8de74f09f09dacb47e2125f117d2f6df927336fb7ceb6d7ae81129259707b0f",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/run_justifiability.sh",
+   "source": "code/run_justifiability.sh",
+   "bytes": 762,
+   "sha256": "2a54336c63518d72e5e5a563697b0bcb3e547526124acc757b4e2b6e6982e1d3",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "code/run_sensitivities.sh",
+   "source": "code/run_sensitivities.sh",
+   "bytes": 882,
+   "sha256": "36fadfa3bec404b873f4834b28842161eee2eb4e23214579d149240c25f6bab2",
+   "group": "every analysis script, verbatim"
+  },
+  {
+   "path": "analysis/admissibility-primary.json",
+   "source": "supplement/analysis/admissibility-primary.json",
+   "bytes": 3918,
+   "sha256": "732a3279cc4dd92c512396bfcad1a8f5b1af602db68e1c7e933dddd08750f826",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/battery-excluded-primary.json",
+   "source": "supplement/analysis/battery-excluded-primary.json",
+   "bytes": 3981,
+   "sha256": "71ed43a01f3cce0109a470a26e37abf4548629de3f947813082728b8fe8f7e58",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-SMOKE-alignment.json",
+   "source": "supplement/analysis/cfa-SMOKE-alignment.json",
+   "bytes": 14007,
+   "sha256": "21fac5673ef49243462cf15feaed5cf5616badaa140ed394b371b90bb6bf2cae",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-SMOKE-perdim.json",
+   "source": "supplement/analysis/cfa-SMOKE-perdim.json",
+   "bytes": 17078,
+   "sha256": "6c80d6176ad54e8d70837616591a04c521f9212c2396e3289ec67eb6f90596f1",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-SMOKE-single.json",
+   "source": "supplement/analysis/cfa-SMOKE-single.json",
+   "bytes": 4639,
+   "sha256": "d1dd1d1b63b1714238116a48a3f892bed5d786a73d87b0475bf20eb0fbd04b8c",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-primary-alignment.json",
+   "source": "supplement/analysis/cfa-primary-alignment.json",
+   "bytes": 14340,
+   "sha256": "aa66233a018bac5e165dca3c5d023c8c67fa378075bb992f3484e3909b4e580d",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-primary-ladder.json",
+   "source": "supplement/analysis/cfa-primary-ladder.json",
+   "bytes": 10888,
+   "sha256": "f0a035bcf5137e969aa703138212ec283246dc216696b83bf2796f40bd1dd251",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/cfa-primary-single.json",
+   "source": "supplement/analysis/cfa-primary-single.json",
+   "bytes": 5902,
+   "sha256": "825c8b30ce3138a6f200a45f57fd3302ec9264b0a42a772b36a34f579e45e4c0",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/delphi-checks-4-5.json",
+   "source": "supplement/analysis/delphi-checks-4-5.json",
+   "bytes": 2591,
+   "sha256": "d52733269c50db7457acaa2bcdf8a2994d474fdb91d60820cd2ba488841e0cee",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/ess-admissibility.json",
+   "source": "supplement/analysis/ess-admissibility.json",
+   "bytes": 2548,
+   "sha256": "6c3ec499879eaf228788bfab9cbfc7646c0bd275dccdda7bed07bb1051d23103",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/ess-replication.json",
+   "source": "supplement/analysis/ess-replication.json",
+   "bytes": 5814,
+   "sha256": "7d837092772b550b17351183024de11184b53723245ce3243f846effa0a88226",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/ess-run.log",
+   "source": "supplement/analysis/ess-run.log",
+   "bytes": 8368,
+   "sha256": "1640bc35b6484fe346cd3554636f990e8a8bb71f6ffb476971da5db0a6723550",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/h4-jellyby-primary.json",
+   "source": "supplement/analysis/h4-jellyby-primary.json",
+   "bytes": 2901,
+   "sha256": "55dc12db9d2846b57fe6aaeb11166b1a6c6cb19dd7e4ac8d74e181b7f769dc8f",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/justifiability-battery-SMOKE.json",
+   "source": "supplement/analysis/justifiability-battery-SMOKE.json",
+   "bytes": 10038,
+   "sha256": "bb3aef00cda4c2122b367da99f58eed810bec2f67cd9c1ccbaa1008f990917fa",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/justifiability-battery.json",
+   "source": "supplement/analysis/justifiability-battery.json",
+   "bytes": 10964,
+   "sha256": "af9eb43f16a89331dd04b2783c884ea28d9e037f6f0fc06aa2b7b16f829581ea",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/justifiability-run.log",
+   "source": "supplement/analysis/justifiability-run.log",
+   "bytes": 5197,
+   "sha256": "ecde584426e8a57577ae10cb8256a87b4337c1f15f1f80007f63a67347fdef3c",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/loading-heterogeneity-primary.json",
+   "source": "supplement/analysis/loading-heterogeneity-primary.json",
+   "bytes": 3192,
+   "sha256": "9c0332e25013915634966adf9ec2d2f9b6343b2fc7445dd53489d0f654b3ba54",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/m2-loadings-primary.json",
+   "source": "supplement/analysis/m2-loadings-primary.json",
+   "bytes": 9312,
+   "sha256": "c56602917efb89abe9fa28f499d1ee315c078548c62d5e8d47a52800ee344541",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/m2m-loadings-primary.json",
+   "source": "supplement/analysis/m2m-loadings-primary.json",
+   "bytes": 10754,
+   "sha256": "ec52b3f9081b40dcac6c65f7b9cd46c50647e14f66df9f195e539db281886ad2",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/perdim-bounded-measures-SMOKE.json",
+   "source": "supplement/analysis/perdim-bounded-measures-SMOKE.json",
+   "bytes": 2784,
+   "sha256": "cb616e58ce0d0cd7db0bb1def36c731efb55a62fdcfface97be36e5380e0f7ee",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/perdim-step-measures-primary.json",
+   "source": "supplement/analysis/perdim-step-measures-primary.json",
+   "bytes": 5238,
+   "sha256": "faaa0262f82a9f444abf97e42b061d86b4e2a6fe5bd6a8c510d954194520ea38",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/perdim-subset-measures-primary.json",
+   "source": "supplement/analysis/perdim-subset-measures-primary.json",
+   "bytes": 2357,
+   "sha256": "29b289f540ca7f9f64e8b4e43608296d84f332341e53f21c899ff33e3474a732",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/pergroup-decomposition-primary.json",
+   "source": "supplement/analysis/pergroup-decomposition-primary.json",
+   "bytes": 1507,
+   "sha256": "7bc8f98d4e7e9bd2303553dca618087139aab41f0472ccd2ff4b073b3a475f9c",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/pilot-icvi-cutpoint.json",
+   "source": "supplement/analysis/pilot-icvi-cutpoint.json",
+   "bytes": 783,
+   "sha256": "0a4fe1e383355470e86794817d2bb6678bd5a04f5102f19ccea68dc6ed1ed216",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/registered-ladder-measures-primary.json",
+   "source": "supplement/analysis/registered-ladder-measures-primary.json",
+   "bytes": 1095,
+   "sha256": "5925d8498c28ae56b39aaf18876fb9cb1b406684609561585a398c62654bd8b7",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/registered-sensitivities.json",
+   "source": "supplement/analysis/registered-sensitivities.json",
+   "bytes": 13847,
+   "sha256": "aca3cd3a48bb0aba5a97f2017e35ace1765764385ac06ccd6efd85a1d88c875c",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/sensitivities-run.log",
+   "source": "supplement/analysis/sensitivities-run.log",
+   "bytes": 11604,
+   "sha256": "22c7ab89f15b014d67e28b1e678d09a239cd06bfa190720358626549839f4f6f",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/sphere-reliability-primary.json",
+   "source": "supplement/analysis/sphere-reliability-primary.json",
+   "bytes": 9190,
+   "sha256": "72dca7d608b5bbd173778090961ff4ed40a626f49f902772857820097b79ce89",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/tier2-score-primary.json",
+   "source": "supplement/analysis/tier2-score-primary.json",
+   "bytes": 20907,
+   "sha256": "935f48d34b2cd445be57e1eae63a431bb4b3853488cce50d8535ab11c38be8c5",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/tier2-wave-comparison.json",
+   "source": "supplement/analysis/tier2-wave-comparison.json",
+   "bytes": 37396,
+   "sha256": "2634a928b4cbc703aa0abecf50dc39c167888f985d93237c8fc11592555f1963",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/tier2-wave2-run.log",
+   "source": "supplement/analysis/tier2-wave2-run.log",
+   "bytes": 10351,
+   "sha256": "7a88a3f33e794f4a98b6b089dee7614b6617d392617670170d547ba9252959a4",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/tier2-wave2-summary.txt",
+   "source": "supplement/analysis/tier2-wave2-summary.txt",
+   "bytes": 6912,
+   "sha256": "d660abe47017b5a56ac670ad256c63225d056b04fb3c83c231eaddbf3f097ae0",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/tier2-wave2-topup.log",
+   "source": "supplement/analysis/tier2-wave2-topup.log",
+   "bytes": 1378,
+   "sha256": "02ef9b932794089d91db2c20d9ff49126760edd01b65f39edbae75bd40637ae6",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "analysis/weak-items-primary.json",
+   "source": "supplement/analysis/weak-items-primary.json",
+   "bytes": 4967,
+   "sha256": "26b1c3b7e1cee5d2cc1b7c67812c2c6a5a34c2d8f21c95764d886d5ce8417908",
+   "group": "full model output as emitted (JSON)"
+  },
+  {
+   "path": "tier2-forecast/delphi-check4-contamination-20260811T062742Z.json",
+   "source": "supplement/tier2-forecast/delphi-check4-contamination-20260811T062742Z.json",
+   "bytes": 22082,
+   "sha256": "7b0052e7206165952012b3912d0461293e56bea78033f6d1792c22b3e0d0d938",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/delphi-check5-sycophancy-20260811T063906Z.json",
+   "source": "supplement/tier2-forecast/delphi-check5-sycophancy-20260811T063906Z.json",
+   "bytes": 92485,
+   "sha256": "5822f25df5ea989d42ccd389bf30b3e034f479e65f2341e3caf9f01d03e45aa6",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-smoke-20260810T081117Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-smoke-20260810T081117Z.json",
+   "bytes": 7881,
+   "sha256": "7b0d761ae4d354c089c880cf49e2a69471356efca8c9d989ed7df6c5108d09db",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-smoke-20260810T081421Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-smoke-20260810T081421Z.json",
+   "bytes": 9649,
+   "sha256": "3f99f393753ee953ae8df9781c33e9de8d6a3e42dafecc0a124e7f1d41cd4429",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-wave1-20260810T083817Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-wave1-20260810T083817Z.json",
+   "bytes": 556876,
+   "sha256": "d6a26e54aaa472d5a4c919be8a3ca5c91df73ef11e95171c10c5da839c65a0ab",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-wave1-topup-20260810T085136Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-wave1-topup-20260810T085136Z.json",
+   "bytes": 191629,
+   "sha256": "680ab464c717582a81c6a8083d4297b76769ee1e57f8105c37de95b6484ab76d",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-wave2-20260909T100752Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-wave2-20260909T100752Z.json",
+   "bytes": 403089,
+   "sha256": "85b08b5a0b8b4586967215d8865a873eb95ea21bdeea518f9de25da18e678f6e",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-forecast-wave2-topup-20260909T102824Z.json",
+   "source": "supplement/tier2-forecast/tier2-forecast-wave2-topup-20260909T102824Z.json",
+   "bytes": 457238,
+   "sha256": "837571c3b0b1f0f3c7066046b8b65c6dddf627d1f26728a79e57df36630b65b6",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-instrument.json",
+   "source": "supplement/tier2-forecast/tier2-instrument.json",
+   "bytes": 39791,
+   "sha256": "5bf9353386ed2d57c4c8b4eabc8a1cc29ba55973f5b0616f3f980f1f0ac0be9c",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-prompt-A.txt",
+   "source": "supplement/tier2-forecast/tier2-prompt-A.txt",
+   "bytes": 11047,
+   "sha256": "bfab6fd59a037dbdbdb0b6d52a05b938e8c192b053c4b5f703568151c73a424e",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-prompt-B.txt",
+   "source": "supplement/tier2-forecast/tier2-prompt-B.txt",
+   "bytes": 2916,
+   "sha256": "23036ef64e690a82dbf7f0be7efeb30f8a0e5f8d3e296608d14a3d14deca32cc",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "tier2-forecast/tier2-prompt.txt",
+   "source": "supplement/tier2-forecast/tier2-prompt.txt",
+   "bytes": 11848,
+   "sha256": "dedc993a73f0a26db2c782cb714d0edd4e2e2308f7bd89dca0b74f037cf56b7e",
+   "group": "every Delphi prompt verbatim, the instrument, and all forecast runs"
+  },
+  {
+   "path": "S1-negative-result-section-as-drafted.tex",
+   "source": "supplement/negative-result-section-as-drafted.tex",
+   "bytes": 9386,
+   "sha256": "a9f2e7ed0067e08080dace9494c43b64d8fd28ab19a94b555b546fc90fdba83a",
+   "group": "the pre-registered negative-result section, as drafted before the analysis"
+  },
+  {
+   "path": "S2-item-table.md",
+   "source": "docs/design/item-table-v2-joint-names.md",
+   "bytes": 20018,
+   "sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+   "group": "the frozen item table, hash-locked and reproduced by code/01"
+  },
+  {
+   "path": "S3-preregistration.md",
+   "source": "docs/preregistration.md",
+   "bytes": 112859,
+   "sha256": "25e84d3658a65bdd7c809d6fbedabb6a2138162fa2b3fe19bcd713b02b8ce970",
+   "group": "the pre-registration as maintained, including all deviations"
+  },
+  {
+   "path": "S4-data-provenance.md",
+   "source": "docs/data-provenance.md",
+   "bytes": 26043,
+   "sha256": "1c34da1074d8d069f8b742c5361170b31f77892fda44f1287f0584c2a36fa3d2",
+   "group": "dataset versions, access dates, licences and checksums"
+  },
+  {
+   "path": "S5-environment.md",
+   "source": "docs/environment-verification.md",
+   "bytes": 3922,
+   "sha256": "be3124b85f64d9b1956f0a0269b3d65e851ef36c812bb768fbd360417e6957ab",
+   "group": "package versions and the install recipe"
+  },
+  {
+   "path": "S6-ethics.md",
+   "source": "docs/ethics.md",
+   "bytes": 4943,
+   "sha256": "e9efb99b419760af327428ac1e29a315068bd7553edf5d27c566f5c00c2b4166",
+   "group": "no-participants record"
+  },
+  {
+   "path": "S7-sphere-reliability.md",
+   "source": "supplement/sphere-reliability-table.md",
+   "bytes": 3009,
+   "sha256": "03590c7e9bd4116aeeaac8e4db26ff310f5ac24649db4432d6bb31c79c5dff73",
+   "group": "per-sphere reliability, generated by code/17 and cited from the Results"
+  },
+  {
+   "path": "S8-delphi-check-2-temporal.md",
+   "source": "supplement/delphi-check-2.md",
+   "bytes": 2796,
+   "sha256": "abed61cbf3a1d8befcac155fe5f7c8fc08ae0b9d65334bc693534a9fc21aff45",
+   "group": "temporal replication protocol and results, generated by code/28"
+  },
+  {
+   "path": "S8-delphi-checks-4-5.md",
+   "source": "supplement/delphi-checks-4-5.md",
+   "bytes": 2885,
+   "sha256": "0809c9b34312b703fa43e5112a5a5e9cf66a56e0bae8284c1fbd9ffe1d04a2f9",
+   "group": "contamination and sycophancy protocols and results, generated by code/21"
+  },
+  {
+   "path": "S9-reporting-checklists.md",
+   "source": "supplement/reporting-checklists.md",
+   "bytes": 19341,
+   "sha256": "c8161e45c92aaa6876b463467c6f36cc7c34c6b3376f06aff71ac24b14bf85fd",
+   "group": "completed ACCORD, CREDES and TRIPOD-LLM checklists"
+  },
+  {
+   "path": "S10-ess-item-table.md",
+   "source": "docs/design/ess-item-table-frozen.md",
+   "bytes": 5135,
+   "sha256": "94ae43fde2761dd9740957eb3fbca2963d89cf0d492b01e9fe8f4575b53ec5a1",
+   "group": "the ESS replication item table, frozen and hashed before any ESS model was fitted"
+  },
+  {
+   "path": "delphi-pilot/delphi-pilot.py",
+   "source": "docs/design/delphi-pilot.py",
+   "bytes": 8205,
+   "sha256": "9e4f15177c50ae2bd35ea3b8107e3b0c8ac83517f19c12e3befaca5b2b32cbe1",
+   "group": "the pilot elicitation script, the input to code/02"
+  },
+  {
+   "path": "delphi-pilot/delphi-pilot_raw.json",
+   "source": "docs/design/delphi-pilot_raw.json",
+   "bytes": 24225,
+   "sha256": "edd563b8b7d6f9e373b7c99a4bb2c7cc9e233999d7b2671a55efbca93358c190",
+   "group": "the pilot's raw responses, the input to code/02"
+  }
+ ]
+}

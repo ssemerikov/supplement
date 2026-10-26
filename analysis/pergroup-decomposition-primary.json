@@ -1,0 +1,46 @@
+{
+  "registered": false,
+  "purpose": "verify that the memory-forced per-group configural route reproduces the pooled multi-group configural estimates exactly",
+  "variant": "primary",
+  "run_utc": "2026-08-11 05:08:05 UTC",
+  "pooled_source": "primary-both-inv-k12-configural.rds",
+  "n_groups_pooled": 12,
+  "n_groups_compared": 12,
+  "groups_missing_per_group_fit": [],
+  "dimensions": {
+    "D1": {
+      "n_items": 18,
+      "n_countries": 12,
+      "r_min": 1,
+      "r_median": 1,
+      "r_max": 1,
+      "max_abs_loading_diff_median": 1e-05,
+      "max_abs_loading_diff_worst": 0.000062,
+      "sign_flips": 0
+    },
+    "D2": {
+      "n_items": 14,
+      "n_countries": 12,
+      "r_min": 1,
+      "r_median": 1,
+      "r_max": 1,
+      "max_abs_loading_diff_median": 0.000015,
+      "max_abs_loading_diff_worst": 0.00046,
+      "sign_flips": 0
+    },
+    "D3": {
+      "n_items": 20,
+      "n_countries": 12,
+      "r_min": 1,
+      "r_median": 1,
+      "r_max": 1,
+      "max_abs_loading_diff_median": 9e-06,
+      "max_abs_loading_diff_worst": 0.00025,
+      "sign_flips": 0
+    }
+  },
+  "decomposition_exact": true,
+  "worst_abs_loading_diff": 0.00046,
+  "min_correlation": 1,
+  "reading": "Correlations at ~1.000 with differences near zero mean the decomposition is exact and the cross-country loading instability is a property of the data, not of the workaround. Correlations well below 1 would mean the per-group route lands in different optima and the alignment would have to be redone."
+}

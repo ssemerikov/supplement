@@ -1,0 +1,82 @@
+TASK. Forecast the results of a confirmatory factor analysis that has not yet been run.
+
+THE MODEL BEING FITTED
+D1 individualism <-> collectivism: is the ultimate bearer of claims and responsibility the
+individual person or the collective?
+D2 altruism <-> egoism: is concern directed outward, to others, or inward, to the self?
+D3 institutional respect <-> anti-institutional personalism: respect for impersonal rules and
+democratic institutions, versus reliance on persons over institutions. Its negative pole is
+leader-principle preference, not low institutional trust.
+
+SCORING DIRECTION — this fixes the sign of every correlation you forecast:
+  HIGH on D1 = individualist (low = collectivist)
+  HIGH on D2 = altruistic    (low = egoistic)
+  HIGH on D3 = institutional respect (low = anti-institutional personalism)
+All reverse-keyed indicators are reverse-scored BEFORE estimation, so every item loads positively
+on its assigned factor if it behaves as intended. A latent correlation is therefore positive when,
+for example, more individualist countries are also more altruistic.
+
+Data: Joint EVS/WVS 2017-2022, 39 European countries, ~77,000 respondents.
+Estimator: WLSMV with ordinal indicators. The target model M2 has three correlated
+factors plus an orthogonal method factor for the nine 'essential characteristics of
+democracy' items (E224-E233B).
+
+Give your probability (0.00-1.00) that each statement below will turn out TRUE.
+There are 52 statements and you must answer every one.
+
+A-D1-P1  In the configural three-factor model M2, item E229 ("Democracy: civil rights protect people's liberty against oppression") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-P2  In the configural three-factor model M2, item E233 ("Democracy: women have the same rights as men") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-P3  In the configural three-factor model M2, item E233B ("Democracy: people obey their rulers") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-P4  In the configural three-factor model M2, item H009 ("Government has the right: video surveillance in public areas") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-P5  In the configural three-factor model M2, item H010 ("Government has the right: monitor all e-mails") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-P6  In the configural three-factor model M2, item H011 ("Government has the right: collect information on anyone") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-E1  In the configural three-factor model M2, item A029 ("Child qualities: independence") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-E2  In the configural three-factor model M2, item A034 ("Child qualities: imagination") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-E3  In the configural three-factor model M2, item A042 ("Child qualities: obedience") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-E4  In the configural three-factor model M2, item A027 ("Child qualities: good manners") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-E5  In the configural three-factor model M2, item D060 ("University more important for a boy than a girl") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M1  In the configural three-factor model M2, item F118 ("Justifiable: homosexuality") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M2  In the configural three-factor model M2, item F120 ("Justifiable: abortion") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M3  In the configural three-factor model M2, item F121 ("Justifiable: divorce") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M4  In the configural three-factor model M2, item F122 ("Justifiable: euthanasia") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M5  In the configural three-factor model M2, item F132 ("Justifiable: having casual sex") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M6  In the configural three-factor model M2, item F123 ("Justifiable: suicide") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D1-M7  In the configural three-factor model M2, item A173 ("How much freedom of choice and control (1–10)") will have a standardised loading of at least 0.40 on its assigned factor D1.
+A-D2-E1  In the configural three-factor model M2, item A041 ("Child qualities: unselfishness") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-E2  In the configural three-factor model M2, item A035 ("Child qualities: tolerance and respect for others") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-E3  In the configural three-factor model M2, item A038 ("Child qualities: thrift") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-M1  In the configural three-factor model M2, item F114A ("Justifiable: claiming benefits you are not entitled to") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-M2  In the configural three-factor model M2, item F115 ("Justifiable: avoiding a fare on public transport") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-M3  In the configural three-factor model M2, item F116 ("Justifiable: cheating on taxes") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-M4  In the configural three-factor model M2, item F117 ("Justifiable: accepting a bribe") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-A1  In the configural three-factor model M2, item A080_01 ("Member: humanitarian or charitable organisation") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-A2  In the configural three-factor model M2, item A080_02 ("Member: self-help / mutual-aid group") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-A3  In the configural three-factor model M2, item A071 ("Member: conservation / environment / animal rights") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-C1  In the configural three-factor model M2, item D026_05 ("It is a child's duty to care for an ill parent") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-C2  In the configural three-factor model M2, item D026_03 ("Duty towards society to have children") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-X1  In the configural three-factor model M2, item E224 ("Democracy: governments tax the rich and subsidise the poor") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D2-X2  In the configural three-factor model M2, item E233A ("Democracy: the state makes people's incomes equal") will have a standardised loading of at least 0.40 on its assigned factor D2.
+A-D3-P1  In the configural three-factor model M2, item E114 ("Political system: having a strong leader") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P2  In the configural three-factor model M2, item E116 ("Political system: having the army rule") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P3  In the configural three-factor model M2, item E115 ("Political system: experts, not government, decide") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P4  In the configural three-factor model M2, item E117 ("Political system: having a democratic political system") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P5  In the configural three-factor model M2, item E228 ("Democracy: the army takes over when government is incompetent") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P6  In the configural three-factor model M2, item E225 ("Democracy: religious authorities interpret the laws") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P7  In the configural three-factor model M2, item E226 ("Democracy: people choose their leaders in free elections") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P8  In the configural three-factor model M2, item E235 ("Importance of democracy (1–10)") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-P9  In the configural three-factor model M2, item E018 ("Future change: greater respect for authority") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-Q1  In the configural three-factor model M2, item E265_01 ("Elections: votes are counted fairly") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-Q2  In the configural three-factor model M2, item E265_05 ("Elections: journalists provide fair coverage") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-Q3  In the configural three-factor model M2, item E265_06 ("Elections: election officials are fair") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-Q4  In the configural three-factor model M2, item E265_03 ("Elections: TV news favours the governing party") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-C1  In the configural three-factor model M2, item E069_07 ("Confidence: parliament") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-C2  In the configural three-factor model M2, item E069_11 ("Confidence: the government") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-C3  In the configural three-factor model M2, item E069_17 ("Confidence: justice system / courts") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-C4  In the configural three-factor model M2, item E069_06 ("Confidence: the police") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-C5  In the configural three-factor model M2, item E069_08 ("Confidence: the civil services") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-M1  In the configural three-factor model M2, item F117 ("Justifiable: accepting a bribe") will have a standardised loading of at least 0.40 on its assigned factor D3.
+A-D3-M2  In the configural three-factor model M2, item E290 ("Justifiable: political violence") will have a standardised loading of at least 0.40 on its assigned factor D3.
+
+Return ONLY:
+{"probabilities":[{"id":"A-D1-P1","p":0.00}]}
+Exactly 52 entries, in the order listed.

@@ -1,0 +1,38 @@
+{
+ "source_raw": "docs/design/delphi-pilot_raw.json",
+ "draws_attempted": 16,
+ "draws_lost_429": 7,
+ "draws_surviving": 9,
+ "n_models": 5,
+ "models": [
+  "gemma4:31b-cloud",
+  "kiro/claude-haiku-4.5",
+  "kiro/claude-sonnet-4.5",
+  "kiro/deepseek-3.2",
+  "kiro/glm-5"
+ ],
+ "developers": [
+  "Anthropic",
+  "DeepSeek",
+  "Google",
+  "Zhipu"
+ ],
+ "n_developers": 4,
+ "n_raters": 9,
+ "n_items": 12,
+ "n_responses": 108,
+ "mean": 5.48,
+ "sd": 2.06,
+ "pct_at_maximum": 6.5,
+ "item_mean_min": 2.22,
+ "item_mean_max": 8.11,
+ "mean_icvi_by_cutpoint": {
+  "2": 0.981,
+  "3": 0.907,
+  "5": 0.685,
+  "7": 0.333,
+  "9": 0.065
+ },
+ "mean_icvi_cte_4pt_rule": 0.685,
+ "caveat": "Pilot. Precedes registration, reported as descriptive, no confirmatory claim rests on it. Suggestive, not conclusive."
+}

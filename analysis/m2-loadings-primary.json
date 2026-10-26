@@ -1,0 +1,436 @@
+{
+  "run_utc": "2026-08-11 05:55:57 UTC",
+  "variant": "primary",
+  "f117": "both",
+  "source_fit": "primary-both-M2.rds",
+  "model": "M2",
+  "model_note": "M2 -- pooled single-group three-factor model, no method factor. The model the manuscript reports as target.",
+  "n_rows": 52,
+  "n_substantive": 52,
+  "n_negative": 9,
+  "n_negative_substantial": 6,
+  "latent_correlations": {
+    "phi_D1_D2": 0.3111,
+    "phi_D1_D3": -0.4544,
+    "phi_D2_D3": -0.4181
+  },
+  "note": "Complete standardised loading table. Produced for Tier-2 block A, whose 52 propositions use a .40 threshold that the .30 drop log cannot resolve. Read-only: no model is fitted here.",
+  "loadings": [
+    {
+      "factor": "D1",
+      "variable": "E229",
+      "est.std": 0.41379417,
+      "se": 0.00357623,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "E233",
+      "est.std": 0.57005597,
+      "se": 0.00360143,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "E233B",
+      "est.std": 0.19164009,
+      "se": 0.00375423,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "H009",
+      "est.std": -0.13165364,
+      "se": 0.00392974,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "H010",
+      "est.std": 0.10995795,
+      "se": 0.00419207,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "H011",
+      "est.std": 0.11941864,
+      "se": 0.00426151,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "A029",
+      "est.std": 0.34553862,
+      "se": 0.00451442,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "A034",
+      "est.std": 0.28159749,
+      "se": 0.00544237,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "A042",
+      "est.std": 0.28220381,
+      "se": 0.00489675,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "A027",
+      "est.std": 0.00770234,
+      "se": 0.0054688,
+      "pvalue": 0.15900802,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "D060",
+      "est.std": -0.43002889,
+      "se": 0.00359812,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F118",
+      "est.std": 0.87249264,
+      "se": 0.00159917,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F120",
+      "est.std": 0.85165911,
+      "se": 0.00140789,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F121",
+      "est.std": 0.83605807,
+      "se": 0.00147058,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F122",
+      "est.std": 0.6764536,
+      "se": 0.00227521,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F132",
+      "est.std": 0.63603951,
+      "se": 0.00244794,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "F123",
+      "est.std": 0.63119739,
+      "se": 0.00274129,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D1",
+      "variable": "A173",
+      "est.std": 0.14163199,
+      "se": 0.00351612,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A041",
+      "est.std": 0.13728267,
+      "se": 0.00614284,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A035",
+      "est.std": 0.42064951,
+      "se": 0.00516052,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A038",
+      "est.std": 0.20523349,
+      "se": 0.00556309,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "F114A",
+      "est.std": 0.66447385,
+      "se": 0.00315983,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "F115",
+      "est.std": 0.44755944,
+      "se": 0.00337035,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "F116",
+      "est.std": 0.70955039,
+      "se": 0.00294219,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "F117",
+      "est.std": 0.79241379,
+      "se": 0.00400741,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A080_01",
+      "est.std": 0.46632392,
+      "se": 0.00763198,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A080_02",
+      "est.std": 0.21104278,
+      "se": 0.00968432,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "A071",
+      "est.std": 0.43746312,
+      "se": 0.00863518,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "D026_05",
+      "est.std": 0.52007977,
+      "se": 0.00404266,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "D026_03",
+      "est.std": -0.48854623,
+      "se": 0.00396766,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "E224",
+      "est.std": 0.0758811,
+      "se": 0.00437738,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D2",
+      "variable": "E233A",
+      "est.std": -0.12571364,
+      "se": 0.00446579,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E114",
+      "est.std": 0.52002122,
+      "se": 0.00315148,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E116",
+      "est.std": 0.57763743,
+      "se": 0.00296435,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E115",
+      "est.std": 0.28759596,
+      "se": 0.0036584,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E117",
+      "est.std": 0.50828224,
+      "se": 0.00330782,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E228",
+      "est.std": -0.45800754,
+      "se": 0.00321477,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E225",
+      "est.std": -0.45906113,
+      "se": 0.00332855,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E226",
+      "est.std": -0.51808209,
+      "se": 0.00327072,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E235",
+      "est.std": -0.50602243,
+      "se": 0.00311515,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E018",
+      "est.std": 0.0503415,
+      "se": 0.0046934,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E265_01",
+      "est.std": 0.73996842,
+      "se": 0.00235482,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E265_05",
+      "est.std": 0.36336657,
+      "se": 0.00347378,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E265_06",
+      "est.std": 0.67345957,
+      "se": 0.0025606,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E265_03",
+      "est.std": 0.28316664,
+      "se": 0.00374966,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E069_07",
+      "est.std": 0.72566083,
+      "se": 0.00201635,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E069_11",
+      "est.std": 0.63385153,
+      "se": 0.0022113,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E069_17",
+      "est.std": 0.63206624,
+      "se": 0.00238857,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E069_06",
+      "est.std": 0.56388714,
+      "se": 0.00253117,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E069_08",
+      "est.std": 0.57147063,
+      "se": 0.00243538,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "F117",
+      "est.std": 0.11077746,
+      "se": 0.00472416,
+      "pvalue": 0,
+      "is_method_factor": false
+    },
+    {
+      "factor": "D3",
+      "variable": "E290",
+      "est.std": -0.27091994,
+      "se": 0.00441513,
+      "pvalue": 0,
+      "is_method_factor": false
+    }
+  ]
+}

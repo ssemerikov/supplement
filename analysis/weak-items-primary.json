@@ -1,0 +1,223 @@
+{
+ "source_fit": "supplement/analysis/cfa-primary-single.json",
+ "run_utc": "2026-08-10 12:23:21 UTC",
+ "threshold": 0.3,
+ "n_items": 51,
+ "n_weak": 18,
+ "n_negative": 3,
+ "by_dimension": {
+  "D1": 8,
+  "D2": 5,
+  "D3": 5
+ },
+ "by_sphere": {
+  "Behaviour": {
+   "n_items": 3,
+   "n_weak": 1,
+   "weak_share": 0.333
+  },
+  "Concrete": {
+   "n_items": 2,
+   "n_weak": 0,
+   "weak_share": 0.0
+  },
+  "Confidence": {
+   "n_items": 5,
+   "n_weak": 0,
+   "weak_share": 0.0
+  },
+  "Education": {
+   "n_items": 8,
+   "n_weak": 5,
+   "weak_share": 0.625
+  },
+  "Morality": {
+   "n_items": 12,
+   "n_weak": 3,
+   "weak_share": 0.25
+  },
+  "Performance": {
+   "n_items": 4,
+   "n_weak": 1,
+   "weak_share": 0.25
+  },
+  "Politics": {
+   "n_items": 17,
+   "n_weak": 8,
+   "weak_share": 0.471
+  }
+ },
+ "reverse_keying_crosstab": {
+  "weak_and_reverse_keyed": 9,
+  "weak_and_forward_keyed": 9,
+  "adequate_and_reverse_keyed": 9,
+  "adequate_and_forward_keyed": 24,
+  "weak_rate_among_reverse_keyed": 0.5,
+  "weak_rate_among_forward_keyed": 0.273
+ },
+ "items": [
+  {
+   "dimension": "D1",
+   "variable": "H009",
+   "loading": -0.132,
+   "negative": true,
+   "reverse_keyed": false,
+   "sphere": "Politics",
+   "label": "Government has the right: video surveillance in public areas"
+  },
+  {
+   "dimension": "D1",
+   "variable": "A027",
+   "loading": 0.008,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Education",
+   "label": "Child qualities: good manners"
+  },
+  {
+   "dimension": "D1",
+   "variable": "H010",
+   "loading": 0.11,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Politics",
+   "label": "Government has the right: monitor all e-mails"
+  },
+  {
+   "dimension": "D1",
+   "variable": "H011",
+   "loading": 0.119,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Politics",
+   "label": "Government has the right: collect information on anyone"
+  },
+  {
+   "dimension": "D1",
+   "variable": "A173",
+   "loading": 0.142,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Morality",
+   "label": "How much freedom of choice and control (1–10)"
+  },
+  {
+   "dimension": "D1",
+   "variable": "E233B",
+   "loading": 0.192,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Politics",
+   "label": "Democracy: people obey their rulers"
+  },
+  {
+   "dimension": "D1",
+   "variable": "A034",
+   "loading": 0.282,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Education",
+   "label": "Child qualities: imagination"
+  },
+  {
+   "dimension": "D1",
+   "variable": "A042",
+   "loading": 0.282,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Education",
+   "label": "Child qualities: obedience"
+  },
+  {
+   "dimension": "D2",
+   "variable": "E233A",
+   "loading": -0.126,
+   "negative": true,
+   "reverse_keyed": false,
+   "sphere": "Politics",
+   "label": "Democracy: the state makes people's incomes equal"
+  },
+  {
+   "dimension": "D2",
+   "variable": "E224",
+   "loading": 0.076,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Politics",
+   "label": "Democracy: governments tax the rich and subsidise the poor"
+  },
+  {
+   "dimension": "D2",
+   "variable": "A041",
+   "loading": 0.137,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Education",
+   "label": "Child qualities: unselfishness"
+  },
+  {
+   "dimension": "D2",
+   "variable": "A038",
+   "loading": 0.205,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Education",
+   "label": "Child qualities: thrift"
+  },
+  {
+   "dimension": "D2",
+   "variable": "A080_02",
+   "loading": 0.211,
+   "negative": false,
+   "reverse_keyed": false,
+   "sphere": "Behaviour",
+   "label": "Member: self-help / mutual-aid group"
+  },
+  {
+   "dimension": "D3",
+   "variable": "E290",
+   "loading": -0.271,
+   "negative": true,
+   "reverse_keyed": true,
+   "sphere": "Morality",
+   "label": "Justifiable: political violence"
+  },
+  {
+   "dimension": "D3",
+   "variable": "E018",
+   "loading": 0.05,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Politics",
+   "label": "Future change: greater respect for authority"
+  },
+  {
+   "dimension": "D3",
+   "variable": "F117",
+   "loading": 0.111,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Morality",
+   "label": "Justifiable: accepting a bribe"
+  },
+  {
+   "dimension": "D3",
+   "variable": "E265_03",
+   "loading": 0.283,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Performance",
+   "label": "Elections: TV news favours the governing party"
+  },
+  {
+   "dimension": "D3",
+   "variable": "E115",
+   "loading": 0.288,
+   "negative": false,
+   "reverse_keyed": true,
+   "sphere": "Politics",
+   "label": "Political system: experts, not government, decide"
+  }
+ ],
+ "note": "Logged, not dropped. The pre-registration permits dropping an item for a standardised loading below .30, but the decision is taken once, recorded with its reason, and never taken to improve fit. Nothing here has been dropped."
+}

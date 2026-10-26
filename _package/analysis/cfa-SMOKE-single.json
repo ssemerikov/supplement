@@ -1,0 +1,207 @@
+{
+  "run_utc": "2026-08-10 11:10:04 UTC",
+  "variant": "SMOKE",
+  "stage": "single",
+  "f117_assignment": "both",
+  "shared_D2_D3": "F117",
+  "seed": 20260810,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "packages": ["0.7.2", "0.5.9", "4.2.133"],
+  "frame": {
+    "rows": 6000,
+    "countries": 39,
+    "source_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+    "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5"
+  },
+  "fit": {
+    "M0": {
+      "chisq.scaled": 86657.4141,
+      "df.scaled": 1224,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4555,
+      "tli.scaled": 0.4328,
+      "rmsea.scaled": 0.1079,
+      "srmr": 0.1242
+    },
+    "M0_12": {
+      "chisq.scaled": 40712.6916,
+      "df.scaled": 464,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5655,
+      "tli.scaled": 0.5355,
+      "rmsea.scaled": 0.1203,
+      "srmr": 0.1194
+    },
+    "M1": {
+      "chisq.scaled": 35122.1614,
+      "df.scaled": 463,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6258,
+      "tli.scaled": 0.5992,
+      "rmsea.scaled": 0.1117,
+      "srmr": 0.1282
+    },
+    "M1b": {
+      "chisq.scaled": 40712.6926,
+      "df.scaled": 464,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5655,
+      "tli.scaled": 0.5355,
+      "rmsea.scaled": 0.1203,
+      "srmr": 0.1194
+    },
+    "M2": {
+      "chisq.scaled": 70067.9048,
+      "df.scaled": 1220,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5612,
+      "tli.scaled": 0.5414,
+      "rmsea.scaled": 0.097,
+      "srmr": 0.1216
+    },
+    "M2b": {
+      "chisq.scaled": 81156.459,
+      "df.scaled": 1221,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4906,
+      "tli.scaled": 0.468,
+      "rmsea.scaled": 0.1045,
+      "srmr": 0.1249
+    },
+    "M2m": {
+      "chisq.scaled": 62102.7594,
+      "df.scaled": 1212,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6119,
+      "tli.scaled": 0.5918,
+      "rmsea.scaled": 0.0915,
+      "srmr": 0.1174
+    },
+    "M4": {
+      "chisq.scaled": 39609.7234,
+      "df.scaled": 1172,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.755,
+      "tli.scaled": 0.7335,
+      "rmsea.scaled": 0.074,
+      "srmr": 0.0931
+    }
+  },
+  "drop_log": {
+    "weak_loadings": [
+      {
+        "lhs": "D1",
+        "rhs": "E233B",
+        "est.std": 0.196535
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H009",
+        "est.std": -0.1453
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H010",
+        "est.std": 0.143617
+      },
+      {
+        "lhs": "D1",
+        "rhs": "H011",
+        "est.std": 0.157831
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A034",
+        "est.std": 0.265114
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A042",
+        "est.std": 0.297966
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A027",
+        "est.std": -0.015805
+      },
+      {
+        "lhs": "D1",
+        "rhs": "A173",
+        "est.std": 0.11918
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A041",
+        "est.std": 0.120125
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A038",
+        "est.std": 0.202775
+      },
+      {
+        "lhs": "D2",
+        "rhs": "A080_02",
+        "est.std": 0.185859
+      },
+      {
+        "lhs": "D2",
+        "rhs": "E224",
+        "est.std": 0.084792
+      },
+      {
+        "lhs": "D2",
+        "rhs": "E233A",
+        "est.std": -0.121977
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E115",
+        "est.std": 0.276196
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E018",
+        "est.std": 0.07548
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E265_03",
+        "est.std": 0.252912
+      },
+      {
+        "lhs": "D3",
+        "rhs": "F117",
+        "est.std": 0.128905
+      },
+      {
+        "lhs": "D3",
+        "rhs": "E290",
+        "est.std": -0.237782
+      }
+    ],
+    "heywood_cases": "none",
+    "note": "Logged, not applied. Dropping an item is a recorded decision taken once, with its reason, and never to improve fit."
+  },
+  "H1": {
+    "a_deltaCFI_ge_.010": true,
+    "b_M1b_rejected_at_.01": true,
+    "c_phi_le_.85": true,
+    "deltaCFI": 0.0603,
+    "deltaCFI_comparator": "M0_12: one factor over the D1-union-D2 indicators",
+    "p_M1b": 0,
+    "phi_D1_D2": 0.4644,
+    "supported": true,
+    "rule": "conjunctive: all three must hold (pre-registration 6.2)"
+  },
+  "H2": {
+    "M2b_rejected_at_.01": true,
+    "phi_D1_D3": -0.4793,
+    "p_M2b": 0,
+    "phi_le_.70": true,
+    "supported": true,
+    "deltaCFI_M2_vs_M0_all": 0.1057,
+    "deltaCFI_note": "M2 vs M0 over all 51 indicators: the global single-axis baseline"
+  },
+  "invariance": []
+}

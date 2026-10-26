@@ -1,0 +1,108 @@
+=== mf | started 2026-09-08 15:59:19 UTC ===
+spec=mf | battery = 11 vars (E290 F114A F115 F116 F117 F118 F120 F121 F122 F123 F132)
+51 indicators (D1 18, D2 14, D3 20), 77396 rows, 39 countries
+  M2     fitting ... 23.9 min
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 37780 65636 65769 
+   65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 66953 
+   67195 67302 67409 67474 67607 71494 71499. 
+2: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+  M2b    fitting ... 25.5 min
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 37780 65636 65769 
+   65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 66953 
+   67195 67302 67409 67474 67607 71494 71499. 
+2: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+  M0_12  fitting ... 6.9 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 37780 65598 65636 
+   65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 
+   66953 67195 67302 67409 67474 67607 71494 71499. 
+  M1     fitting ... 8.1 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 37780 65598 65636 
+   65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 
+   66953 67195 67302 67409 67474 67607 71494 71499. 
+  M1b    fitting ... 7.0 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 37780 65598 65636 
+   65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 
+   66953 67195 67302 67409 67474 67607 71494 71499. 
+
+H1: dCFI -0.0018  p(M1b) 9.58e-22  phi(D1,D2) +0.9391  -> supported = FALSE
+H2: p(M2b) 0  phi(D1,D3) -0.5826  phi(D2,D3) -0.4878 -> supported = TRUE
+Warning messages:
+1: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+2: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+3: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+4: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+
+wrote supplement/analysis/justifiability-battery.json [mf]
+--- mf exit=0 finished 2026-09-08 17:11:58 UTC ---
+=== excl | started 2026-09-08 17:11:58 UTC ===
+spec=excl | battery = 11 vars (E290 F114A F115 F116 F117 F118 F120 F121 F122 F123 F132)
+40 indicators (D1 12, D2 10, D3 18), 77396 rows, 39 countries
+  M2     fitting ... 8.7 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 36568 37780 65636 
+   65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 
+   66953 67195 67302 67409 67474 67607 71494 71499. 
+  M2b    fitting ... 8.2 min
+Warning messages:
+1: lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 36568 37780 65636 
+   65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 66943 
+   66953 67195 67302 67409 67474 67607 71494 71499. 
+2: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+  M0_12  fitting ... 1.1 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 36568 37780 65598 
+   65636 65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 
+   66943 66953 67195 67302 67409 67474 67607 71494 71499. 
+  M1     fitting ... 1.1 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 36568 37780 65598 
+   65636 65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 
+   66943 66953 67195 67302 67409 67474 67607 71494 71499. 
+  M1b    fitting ... 1.1 min
+Warning message:
+lavaan->lav_data_full():  
+   some cases are empty and will be ignored: 26507 26565 36568 37780 65598 
+   65636 65769 65785 66102 66158 66175 66208 66597 66611 66681 66785 66844 
+   66943 66953 67195 67302 67409 67474 67607 71494 71499. 
+
+H1: dCFI +0.1198  p(M1b) 0  phi(D1,D2) +0.1766  -> supported = TRUE
+H2: p(M2b) 0  phi(D1,D3) -0.2883  phi(D2,D3) -0.3220 -> supported = TRUE
+Warning messages:
+1: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+2: lavaan->lav_object_post_check():  
+   covariance matrix of latent variables is not positive definite ; use 
+   lavInspect(fit, "cov.lv") to investigate. 
+
+wrote supplement/analysis/justifiability-battery.json [excl]
+--- excl exit=0 finished 2026-09-08 17:32:37 UTC ---
+BOTH SPECS DONE 2026-09-08 17:32:37 UTC

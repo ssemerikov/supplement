@@ -1,0 +1,498 @@
+{
+  "registered": true,
+  "registered_in": "preregistration.md §4.1, Decisions D1 and D2, and the F117 ruling",
+  "purpose": "Registered sensitivity analyses promised in the manuscript and not run before 2026-09-08. Decision rules are the pre-registration's own and were fixed before these fits.",
+  "variants": {
+    "cyprus": {
+      "label": "cyprus",
+      "frame": "sens-cy",
+      "f117": "both",
+      "run_utc": "2026-09-08 07:12:56 UTC",
+      "registered": true,
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "n_rows": 78396,
+      "n_countries": 40,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 14,
+        "D3": 20
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 948409.1144,
+          "df.scaled": 1220,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5611,
+          "tli.scaled": 0.5413,
+          "rmsea.scaled": 0.0995,
+          "srmr": 0.1228
+        },
+        "M2b": {
+          "chisq.scaled": 1117783.4455,
+          "df.scaled": 1221,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4826,
+          "tli.scaled": 0.4597,
+          "rmsea.scaled": 0.108,
+          "srmr": 0.1274
+        },
+        "M0_12": {
+          "chisq.scaled": 543492.1336,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5631,
+          "tli.scaled": 0.533,
+          "rmsea.scaled": 0.1222,
+          "srmr": 0.1231
+        },
+        "M1": {
+          "chisq.scaled": 464977.4693,
+          "df.scaled": 463,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6263,
+          "tli.scaled": 0.5996,
+          "rmsea.scaled": 0.1131,
+          "srmr": 0.132
+        },
+        "M1b": {
+          "chisq.scaled": 543492.2109,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5631,
+          "tli.scaled": 0.533,
+          "rmsea.scaled": 0.1222,
+          "srmr": 0.1231
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 586290.29,
+          "chisq_free": 564383.4,
+          "gap": 21906.88
+        },
+        "delta_cfi": 0.0632,
+        "p_M1b": 0,
+        "phi_D1_D2": 0.2906,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 1511540.91,
+          "chisq_free": 1289083.41,
+          "gap": 222457.49
+        },
+        "phi_D1_D3": -0.4506,
+        "phi_D2_D3": -0.4167,
+        "phi_D1_D2_in_M2": 0.3046,
+        "p_M2b": 0,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      }
+    },
+    "zero_na": {
+      "label": "zero_na",
+      "frame": "sens-0na",
+      "f117": "both",
+      "run_utc": "2026-09-08 08:22:24 UTC",
+      "registered": true,
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "n_rows": 77396,
+      "n_countries": 39,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 14,
+        "D3": 20
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 937273.4742,
+          "df.scaled": 1220,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5625,
+          "tli.scaled": 0.5428,
+          "rmsea.scaled": 0.0996,
+          "srmr": 0.1228
+        },
+        "M2b": {
+          "chisq.scaled": 1102321.1823,
+          "df.scaled": 1221,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4854,
+          "tli.scaled": 0.4626,
+          "rmsea.scaled": 0.108,
+          "srmr": 0.1273
+        },
+        "M0_12": {
+          "chisq.scaled": 538141.3387,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5637,
+          "tli.scaled": 0.5336,
+          "rmsea.scaled": 0.1224,
+          "srmr": 0.123
+        },
+        "M1": {
+          "chisq.scaled": 460480.5302,
+          "df.scaled": 463,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6267,
+          "tli.scaled": 0.6001,
+          "rmsea.scaled": 0.1133,
+          "srmr": 0.1318
+        },
+        "M1b": {
+          "chisq.scaled": 538141.3441,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5637,
+          "tli.scaled": 0.5336,
+          "rmsea.scaled": 0.1224,
+          "srmr": 0.123
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 579460.95,
+          "chisq_free": 557298.78,
+          "gap": 22162.17
+        },
+        "delta_cfi": 0.063,
+        "p_M1b": 0,
+        "phi_D1_D2": 0.301,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 1487783.33,
+          "chisq_free": 1270980.55,
+          "gap": 216802.79
+        },
+        "phi_D1_D3": -0.4565,
+        "phi_D2_D3": -0.4212,
+        "phi_D1_D2_in_M2": 0.3141,
+        "p_M2b": 0,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      }
+    },
+    "nocauc": {
+      "label": "nocauc",
+      "frame": "sens-nocauc",
+      "f117": "both",
+      "run_utc": "2026-09-08 09:25:41 UTC",
+      "registered": true,
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "n_rows": 70679,
+      "n_countries": 36,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 14,
+        "D3": 20
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 851783.3625,
+          "df.scaled": 1220,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5605,
+          "tli.scaled": 0.5407,
+          "rmsea.scaled": 0.0993,
+          "srmr": 0.1224
+        },
+        "M2b": {
+          "chisq.scaled": 999013.9795,
+          "df.scaled": 1221,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4845,
+          "tli.scaled": 0.4617,
+          "rmsea.scaled": 0.1075,
+          "srmr": 0.1275
+        },
+        "M0_12": {
+          "chisq.scaled": 506433.2089,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5308,
+          "tli.scaled": 0.4985,
+          "rmsea.scaled": 0.1242,
+          "srmr": 0.1278
+        },
+        "M1": {
+          "chisq.scaled": 415865.5046,
+          "df.scaled": 463,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6148,
+          "tli.scaled": 0.5873,
+          "rmsea.scaled": 0.1127,
+          "srmr": 0.1307
+        },
+        "M1b": {
+          "chisq.scaled": 506433.322,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5308,
+          "tli.scaled": 0.4985,
+          "rmsea.scaled": 0.1242,
+          "srmr": 0.1278
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 555235.54,
+          "chisq_free": 508574.11,
+          "gap": 46661.43
+        },
+        "delta_cfi": 0.084,
+        "p_M1b": 0,
+        "phi_D1_D2": 0.2353,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 1359049.48,
+          "chisq_free": 1162446.05,
+          "gap": 196603.43
+        },
+        "phi_D1_D3": -0.4591,
+        "phi_D2_D3": -0.4439,
+        "phi_D1_D2_in_M2": 0.2739,
+        "p_M2b": 0,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      }
+    },
+    "f117_d2": {
+      "label": "f117_d2",
+      "frame": "primary",
+      "f117": "d2only",
+      "run_utc": "2026-09-08 10:46:37 UTC",
+      "registered": true,
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "n_rows": 77396,
+      "n_countries": 39,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 14,
+        "D3": 19
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 931649.7666,
+          "df.scaled": 1221,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5647,
+          "tli.scaled": 0.5454,
+          "rmsea.scaled": 0.0992,
+          "srmr": 0.1226
+        },
+        "M2b": {
+          "chisq.scaled": 1097343.3951,
+          "df.scaled": 1222,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4872,
+          "tli.scaled": 0.4649,
+          "rmsea.scaled": 0.1077,
+          "srmr": 0.1279
+        },
+        "M0_12": {
+          "chisq.scaled": 534940.2905,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5658,
+          "tli.scaled": 0.5358,
+          "rmsea.scaled": 0.122,
+          "srmr": 0.1226
+        },
+        "M1": {
+          "chisq.scaled": 457338.1627,
+          "df.scaled": 463,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6288,
+          "tli.scaled": 0.6023,
+          "rmsea.scaled": 0.1129,
+          "srmr": 0.1314
+        },
+        "M1b": {
+          "chisq.scaled": 534940.2182,
+          "df.scaled": 464,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5658,
+          "tli.scaled": 0.5358,
+          "rmsea.scaled": 0.122,
+          "srmr": 0.1226
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 575169.95,
+          "chisq_free": 552975.56,
+          "gap": 22194.39
+        },
+        "delta_cfi": 0.063,
+        "p_M1b": 0,
+        "phi_D1_D2": 0.2984,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 1491628.12,
+          "chisq_free": 1266948.42,
+          "gap": 224679.71
+        },
+        "phi_D1_D3": -0.4506,
+        "phi_D2_D3": -0.3973,
+        "phi_D1_D2_in_M2": 0.3115,
+        "p_M2b": 0,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      }
+    },
+    "f117_d3": {
+      "label": "f117_d3",
+      "frame": "primary",
+      "f117": "d3only",
+      "run_utc": "2026-09-08 12:04:47 UTC",
+      "registered": true,
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "n_rows": 77396,
+      "n_countries": 39,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 13,
+        "D3": 20
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 975836.1641,
+          "df.scaled": 1221,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.544,
+          "tli.scaled": 0.5239,
+          "rmsea.scaled": 0.1016,
+          "srmr": 0.1218
+        },
+        "M2b": {
+          "chisq.scaled": 1149256.0746,
+          "df.scaled": 1222,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4629,
+          "tli.scaled": 0.4396,
+          "rmsea.scaled": 0.1102,
+          "srmr": 0.1274
+        },
+        "M0_12": {
+          "chisq.scaled": 453105.9138,
+          "df.scaled": 434,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6128,
+          "tli.scaled": 0.5852,
+          "rmsea.scaled": 0.1161,
+          "srmr": 0.1085
+        },
+        "M1": {
+          "chisq.scaled": 430021.6866,
+          "df.scaled": 433,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6326,
+          "tli.scaled": 0.6054,
+          "rmsea.scaled": 0.1132,
+          "srmr": 0.1114
+        },
+        "M1b": {
+          "chisq.scaled": 453105.9264,
+          "df.scaled": 434,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6128,
+          "tli.scaled": 0.5852,
+          "rmsea.scaled": 0.1161,
+          "srmr": 0.1085
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 462755.81,
+          "chisq_free": 449897,
+          "gap": 12858.8
+        },
+        "delta_cfi": 0.0197,
+        "p_M1b": 0,
+        "phi_D1_D2": 0.6293,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 1545473.33,
+          "chisq_free": 1312094.91,
+          "gap": 233378.42
+        },
+        "phi_D1_D3": -0.442,
+        "phi_D2_D3": -0.466,
+        "phi_D1_D2_in_M2": 0.4438,
+        "p_M2b": 0,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      }
+    }
+  },
+  "run_utc": "2026-09-08 12:05:24 UTC"
+}

@@ -1,0 +1,29 @@
+{
+  "model": "M2 (three-factor, 51 indicators)",
+  "purpose": "the pre-registered invariance ladder, fitted one rung per process; rungs at 39 countries ARE the registered test, rungs at fewer are the subset diagnostic and are keyed separately",
+  "forced_deviations": {
+    "category_collapsing": "minimal merging until no category is empty in any country; required by lavaan, logged in preregistration Sec. 11",
+    "se_none": "standard errors not computed; the invariance decision is a delta in scaled CFI and no SE is consumed downstream"
+  },
+  "variant": "primary",
+  "f117": "both",
+  "steps": {
+    "configural_k12": {
+      "step": "configural",
+      "registered": false,
+      "converged": true,
+      "n_countries": 12,
+      "n_indicators": 51,
+      "fit_minutes_measures": 0,
+      "cache_file": "primary-both-inv-k12-configural.rds",
+      "chisq.scaled": 274638.3804,
+      "df.scaled": 14640,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5475,
+      "tli.scaled": 0.5271,
+      "rmsea.scaled": 0.0901,
+      "srmr": 0.1308
+    }
+  },
+  "run_utc": "2026-08-12 01:50:15 UTC"
+}

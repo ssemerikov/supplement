@@ -1,0 +1,86 @@
+{
+  "registered": true,
+  "registered_in": "preregistration.md 6.5",
+  "variant": "primary",
+  "seed": 20260810,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "source_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+  "decision_rules": {
+    "separable": "one-factor rejected against two-factor at alpha = .01 AND phi <= .85",
+    "incremental": "equal-relations model rejected against the free model at alpha = .01"
+  },
+  "note": "H4 is exploratory-confirmatory and threatens no other hypothesis. Probe 3 has one indicator per pole and is not identified as a two-factor model; it is reported as not estimable.",
+  "probes": {
+    "trust": {
+      "probe": "trust",
+      "concrete": ["D001_B", "G007_33_B"],
+      "anonymous": ["G007_34_B", "G007_36_B"],
+      "estimable": true,
+      "fit_one_factor": {
+        "chisq.scaled": 2404.6638,
+        "df.scaled": 2,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.9795,
+        "tli.scaled": 0.9385,
+        "rmsea.scaled": 0.1247,
+        "srmr": 0.0646
+      },
+      "fit_two_factor": {
+        "chisq.scaled": 37.7775,
+        "df.scaled": 1,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.9997,
+        "tli.scaled": 0.9981,
+        "rmsea.scaled": 0.0218,
+        "srmr": 0.0079
+      },
+      "phi_concrete_anonymous": 0.5997,
+      "p_one_factor_rejected": 0,
+      "deltaCFI": 0.0202,
+      "one_factor_rejected_at_.01": true,
+      "phi_le_.85": true,
+      "separable": true
+    },
+    "belong": {
+      "probe": "belong",
+      "concrete": ["G255", "G256"],
+      "anonymous": ["G062", "G063"],
+      "estimable": true,
+      "fit_one_factor": {
+        "chisq.scaled": 40899.103,
+        "df.scaled": 2,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.882,
+        "tli.scaled": 0.6461,
+        "rmsea.scaled": 0.5161,
+        "srmr": 0.2381
+      },
+      "fit_two_factor": {
+        "chisq.scaled": 94.2531,
+        "df.scaled": 1,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.9997,
+        "tli.scaled": 0.9984,
+        "rmsea.scaled": 0.0348,
+        "srmr": 0.0047
+      },
+      "phi_concrete_anonymous": 0.3343,
+      "p_one_factor_rejected": 0,
+      "deltaCFI": 0.1177,
+      "one_factor_rejected_at_.01": true,
+      "phi_le_.85": true,
+      "separable": true
+    },
+    "act_for": {
+      "probe": "act_for",
+      "concrete": "D026_05",
+      "anonymous": "A080_01",
+      "estimable": false,
+      "reason": "fewer than two indicators on a pole; a two-factor model is not identified at any sample size"
+    }
+  },
+  "n_probes_estimable": 2,
+  "n_probes_separable": 2,
+  "registered_rule_note": "The registered prediction is 'at least two of the three probes'. 2 of 3 are estimable, so the rule cannot be met on its own terms whatever the result; the count of separable probes among the estimable ones is reported instead.",
+  "run_utc_probes": "2026-08-11 06:11:16 UTC"
+}

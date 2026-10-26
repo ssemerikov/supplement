@@ -1,0 +1,129 @@
+{
+  "run_utc": "2026-08-10 12:32:39 UTC",
+  "variant": "primary",
+  "f117": "both",
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "lavaan": "0.7.2",
+  "models": {
+    "M0": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 1,
+      "min_eigenvalue_covlv": 1,
+      "latent_correlations": [
+        [1]
+      ],
+      "min_residual_var": 0.348395,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8072,
+      "singular_by_design": false
+    },
+    "M0_12": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 1,
+      "min_eigenvalue_covlv": 1,
+      "latent_correlations": [
+        [1]
+      ],
+      "min_residual_var": 0.27316,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8525,
+      "singular_by_design": false
+    },
+    "M1": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 2,
+      "min_eigenvalue_covlv": 0.701596,
+      "latent_correlations": [
+        [1, 0.2984],
+        [0.2984, 1]
+      ],
+      "min_residual_var": 0.258661,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.861,
+      "singular_by_design": false
+    },
+    "M1b": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 2,
+      "min_eigenvalue_covlv": 0,
+      "latent_correlations": [
+        [1, 1],
+        [1, 1]
+      ],
+      "min_residual_var": 0.273161,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8525,
+      "singular_by_design": true
+    },
+    "M2": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 3,
+      "min_eigenvalue_covlv": 0.516899,
+      "latent_correlations": [
+        [1, 0.3111, -0.4544],
+        [0.3111, 1, -0.4181],
+        [-0.4544, -0.4181, 1]
+      ],
+      "min_residual_var": 0.238757,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8725,
+      "singular_by_design": false
+    },
+    "M2b": {
+      "post_check_passed": false,
+      "warning": "lavaan->lav_object_post_check(): covariance matrix of latent variables is not positive definite ; use lavInspect(fit, \"cov.lv\") to investigate.",
+      "n_latent": 3,
+      "min_eigenvalue_covlv": -0.011709,
+      "latent_correlations": [
+        [1, 0.397, 1],
+        [0.397, 1, 0.5335],
+        [1, 0.5335, 1]
+      ],
+      "min_residual_var": 0.238369,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.9971,
+      "singular_by_design": true
+    },
+    "M2m": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 4,
+      "min_eigenvalue_covlv": 0.550886,
+      "latent_correlations": [
+        [1, 0.3104, -0.4156, 0],
+        [0.3104, 1, -0.4103, 0],
+        [-0.4156, -0.4103, 1, 0],
+        [0, 0, 0, 1]
+      ],
+      "min_residual_var": 0.224259,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8808,
+      "singular_by_design": false
+    },
+    "M4": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 4,
+      "min_eigenvalue_covlv": 1,
+      "latent_correlations": [
+        [1, 0, 0, 0],
+        [0, 1, 0, 0],
+        [0, 0, 1, 0],
+        [0, 0, 0, 1]
+      ],
+      "min_residual_var": 0.249436,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.8638,
+      "singular_by_design": false
+    }
+  },
+  "failed": "M2b",
+  "failed_by_design": "M2b",
+  "failed_unexpectedly": [],
+  "interpretation": "A model with phi fixed to 1 has a rank-deficient latent covariance matrix by construction, so an inadmissibility warning from M1b or M2b carries no information about the data. It does, however, mean the chi-square difference test that uses that model as the constrained comparison is taken against an inadmissible solution, which must be disclosed: the qualitative conclusion (the two factors cannot be one) is strengthened by the inadmissibility, while the exact p-value should not be read as an ordinary likelihood-ratio p-value."
+}

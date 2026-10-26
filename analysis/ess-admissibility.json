@@ -1,0 +1,96 @@
+{
+  "run_utc": "2026-09-09 19:52:55 UTC",
+  "analysis": "ESS structural replication",
+  "registered": false,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "lavaan": "0.7.2",
+  "models": {
+    "M0": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 1,
+      "min_eigenvalue_covlv": 1,
+      "latent_correlations": [
+        [1]
+      ],
+      "min_residual_var": 0.462157,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.7334,
+      "singular_by_design": false
+    },
+    "M0_12": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 1,
+      "min_eigenvalue_covlv": 1,
+      "latent_correlations": [
+        [1]
+      ],
+      "min_residual_var": 0.537028,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.6804,
+      "singular_by_design": false
+    },
+    "M1": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 2,
+      "min_eigenvalue_covlv": 0.232806,
+      "latent_correlations": [
+        [1, 0.7672],
+        [0.7672, 1]
+      ],
+      "min_residual_var": 0.518941,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.6936,
+      "singular_by_design": false
+    },
+    "M1b": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 2,
+      "min_eigenvalue_covlv": 0,
+      "latent_correlations": [
+        [1, 1],
+        [1, 1]
+      ],
+      "min_residual_var": 0.537031,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.6804,
+      "singular_by_design": true
+    },
+    "M2": {
+      "post_check_passed": true,
+      "warning": null,
+      "n_latent": 3,
+      "min_eigenvalue_covlv": 0.235983,
+      "latent_correlations": [
+        [1, 0.7484, 0.215],
+        [0.7484, 1, 0.0631],
+        [0.215, 0.0631, 1]
+      ],
+      "min_residual_var": 0.124215,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.9358,
+      "singular_by_design": false
+    },
+    "M2b": {
+      "post_check_passed": false,
+      "warning": "lavaan->lav_object_post_check(): covariance matrix of latent variables is not positive definite ; use lavInspect(fit, \"cov.lv\") to investigate.",
+      "n_latent": 3,
+      "min_eigenvalue_covlv": -1.985119,
+      "latent_correlations": [
+        [1, 2.8322, 1],
+        [2.8322, 1, 0.06],
+        [1, 0.06, 1]
+      ],
+      "min_residual_var": 0.137998,
+      "heywood_negative_var": 0,
+      "max_abs_std_loading": 0.9284,
+      "singular_by_design": true
+    }
+  },
+  "failed": "M2b",
+  "failed_by_design": "M2b",
+  "failed_unexpectedly": []
+}

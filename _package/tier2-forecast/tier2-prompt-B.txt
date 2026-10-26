@@ -1,0 +1,48 @@
+TASK. Forecast the results of a confirmatory factor analysis that has not yet been run.
+
+THE MODEL BEING FITTED
+D1 individualism <-> collectivism: is the ultimate bearer of claims and responsibility the
+individual person or the collective?
+D2 altruism <-> egoism: is concern directed outward, to others, or inward, to the self?
+D3 institutional respect <-> anti-institutional personalism: respect for impersonal rules and
+democratic institutions, versus reliance on persons over institutions. Its negative pole is
+leader-principle preference, not low institutional trust.
+
+SCORING DIRECTION — this fixes the sign of every correlation you forecast:
+  HIGH on D1 = individualist (low = collectivist)
+  HIGH on D2 = altruistic    (low = egoistic)
+  HIGH on D3 = institutional respect (low = anti-institutional personalism)
+All reverse-keyed indicators are reverse-scored BEFORE estimation, so every item loads positively
+on its assigned factor if it behaves as intended. A latent correlation is therefore positive when,
+for example, more individualist countries are also more altruistic.
+
+Data: Joint EVS/WVS 2017-2022, 39 European countries, ~77,000 respondents.
+Estimator: WLSMV with ordinal indicators. The target model M2 has three correlated
+factors plus an orthogonal method factor for the nine 'essential characteristics of
+democracy' items (E224-E233B).
+
+PART 1. Give your probability (0.00-1.00) that each statement will turn out TRUE.
+
+B-H1  H1 will be supported: all three of (a) M1 beats M0 by dCFI >= .010, (b) M1b rejected against M1 at alpha = .01, (c) phi(D1,D2) <= .85.
+B-H1a  M1 (two factors) will beat M0 (one factor) by dCFI >= .010.
+B-H1c  The estimated phi(D1,D2) will be <= .85.
+B-H2  H2 will be supported: M2b rejected against M2 at alpha = .01 AND phi(D1,D3) <= .70.
+B-H2c  The estimated phi(D1,D3) will be <= .70.
+B-H3b  IDV and Welzel's index will both fall inside the +/-0.20 equivalence bound on D2.
+B-H4  For at least two of the three Jellyby probes, a two-factor solution (concrete vs anonymous) will beat a one-factor solution.
+B-FIT  The target model M2 will reach CFI >= .95 in the pooled configural model.
+C-METRIC  Metric invariance will hold across the 39 countries (dCFI <= .010).
+C-SCALAR  Scalar invariance will hold across the 39 countries (dCFI <= .010).
+C-ALIGN  At least one dimension will fail the alignment recovery check and therefore have NO country means reported.
+
+PART 2. Give a point forecast and an 80% interval for each latent correlation.
+Correlations lie in [-1, 1]. Mind the scoring direction stated above when choosing signs.
+
+D-PHI12  Point forecast for phi(D1,D2), the latent correlation between D1 and D2.
+D-PHI13  Point forecast for phi(D1,D3).
+D-PHI23  Point forecast for phi(D2,D3).
+
+Return ONLY:
+{"probabilities":[{"id":"B-H1","p":0.00}],
+ "parameters":[{"id":"D-PHI12","point":0.00,"lo80":0.00,"hi80":0.00}]}
+Exactly 11 probabilities and 3 parameters.

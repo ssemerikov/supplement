@@ -1,0 +1,115 @@
+{
+  "run_utc": "2026-08-11 06:40:06 UTC",
+  "registered": true,
+  "registered_in": "preregistration.md Decision D3, second clause",
+  "variant": "primary",
+  "seed": 20260810,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+  "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+  "excluded_items": ["E224", "E225", "E226", "E227", "E228", "E229", "E233", "E233A", "E233B"],
+  "n_indicators": 43,
+  "n_by_dimension": {
+    "D1": 15,
+    "D2": 12,
+    "D3": 17
+  },
+  "fit": {
+    "M2": {
+      "chisq.scaled": 669002.4728,
+      "df.scaled": 856,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.636,
+      "tli.scaled": 0.616,
+      "rmsea.scaled": 0.1004,
+      "srmr": 0.1239
+    },
+    "M2b": {
+      "chisq.scaled": 878252.104,
+      "df.scaled": 857,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.522,
+      "tli.scaled": 0.4964,
+      "rmsea.scaled": 0.115,
+      "srmr": 0.1356
+    },
+    "M0_12": {
+      "chisq.scaled": 434165.5712,
+      "df.scaled": 324,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6134,
+      "tli.scaled": 0.5812,
+      "rmsea.scaled": 0.1316,
+      "srmr": 0.1314
+    },
+    "M1": {
+      "chisq.scaled": 375652.1594,
+      "df.scaled": 323,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6656,
+      "tli.scaled": 0.6366,
+      "rmsea.scaled": 0.1226,
+      "srmr": 0.1428
+    },
+    "M1b": {
+      "chisq.scaled": 434165.6192,
+      "df.scaled": 324,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6134,
+      "tli.scaled": 0.5812,
+      "rmsea.scaled": 0.1316,
+      "srmr": 0.1314
+    }
+  },
+  "H2": {
+    "interpretable": true,
+    "nested_check": {
+      "ok": true,
+      "chisq_restricted": 1161395.45,
+      "chisq_free": 877406.79,
+      "gap": 283988.66
+    },
+    "phi_D1_D3": 0.3417,
+    "phi_D2_D3": -0.343,
+    "phi_D1_D2_in_M2": -0.2306,
+    "p_M2b": 0,
+    "M2b_rejected_at_.01": true,
+    "abs_phi_le_.70": true,
+    "supported": true
+  },
+  "H1": {
+    "interpretable": false,
+    "not_interpretable_because": "M1b is nested within M1 but reaches a LOWER unscaled chi-square (451365.3 on 324 df against 453404.5 on 323 df). That is impossible at a global optimum, so M1 is at a local one and no H1 quantity from this specification -- difference test, delta CFI or phi -- is reported. This is a fitting failure, not evidence about H1.",
+    "nested_check": {
+      "ok": false,
+      "chisq_restricted": 451365.35,
+      "chisq_free": 453404.5,
+      "gap": -2039.16
+    },
+    "phi_D1_D2": {},
+    "deltaCFI": {},
+    "p_M1b": {},
+    "supported": null
+  },
+  "admissibility": {
+    "M2_min_eigenvalue_cov_lv": 0.61759,
+    "M2_min_residual_variance": 0.2357,
+    "M2_admissible": true,
+    "note": "M2b constrains phi(D1,D3) to +1 and is inadmissible by construction, exactly as in the battery-inclusive model. That does not bear on M2."
+  },
+  "sign_stability": {
+    "note": "Signs are not part of any registered decision rule, but the manuscript interprets them, so their stability across this specification is recorded.",
+    "phi_D1_D3_battery_inclusive": -0.4544,
+    "phi_D1_D3_battery_excluded": 0.3417,
+    "phi_D1_D3_sign_stable": false,
+    "phi_D1_D2_battery_inclusive": 0.2984,
+    "phi_D1_D2_battery_excluded": {},
+    "phi_D1_D2_sign_stable": {},
+    "phi_D1_D2_note": "Not compared: the battery-excluded M1 is at a local optimum, so its phi is not a result.",
+    "phi_D2_D3_battery_inclusive": -0.4181,
+    "phi_D2_D3_battery_excluded": -0.343,
+    "phi_D2_D3_sign_stable": true
+  },
+  "criterion": "as registered for H2: M2b rejected against M2 at alpha = .01 AND |phi(D1,D3)| <= .70; and for H1 the three-part conjunctive rule of 6.2",
+  "note": "Second clause of Decision D3. Fixed before the fit: survival means the H2 decision rule holds on this specification too. A failure here would have been reported as the finding, not resolved in favour of the battery-inclusive model."
+}

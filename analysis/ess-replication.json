@@ -1,0 +1,185 @@
+{
+  "analysis": "ESS structural replication of the PII model",
+  "registered": false,
+  "registered_scope": "preregistration.md §4.2 registers a replication of model structure for the politics and morality spheres only and names no ESS items; the item mapping is unregistered and was frozen before any ESS model was fitted",
+  "frozen_ess_table_sha256": "94ae43fde2761dd9740957eb3fbca2963d89cf0d492b01e9fe8f4575b53ec5a1",
+  "frame_sha256": "d2288ed25115027dd2132b47f903bf1bf5119a7902419739fbc6a28ffd35b963",
+  "seed": 20260810,
+  "R_version": "R version 4.6.1 (2026-06-24)",
+  "lavaan_version": "0.7.2",
+  "run_utc": "2026-09-09 19:51:33",
+  "estimator": "WLSMV, ordered indicators, pairwise-complete, std.lv = TRUE (as the primary)",
+  "n_rows": 137246,
+  "n_countries_any_round": 33,
+  "n_by_dimension": {
+    "D1": 7,
+    "D2": 10,
+    "D3": 3
+  },
+  "item_ids": {
+    "frozen_table": ["D1-P5", "D1-P6", "D1-M6", "D1-M7", "D1-M8", "D1-M9", "D1-M10", "D2-P4", "D2-M1", "D2-M2", "D2-M3", "D2-M4", "D2-M5", "D2-M6", "D2-M7", "D2-M8", "D2-M9", "D3-P9", "D3-P10", "D3-M2"],
+    "model": ["D1_P5", "D1_P6", "D1_M6", "D1_M7", "D1_M8", "D1_M9", "D1_M10", "D2_P4", "D2_M1", "D2_M2", "D2_M3", "D2_M4", "D2_M5", "D2_M6", "D2_M7", "D2_M8", "D2_M9", "D3_P9", "D3_P10", "D3_M2"],
+    "dim": ["D1", "D1", "D1", "D1", "D1", "D1", "D1", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "D2", "D3", "D3", "D3"]
+  },
+  "parameter_comparability": "NONE. Disjoint respondents, different items, different response formats. Only the direction of the model comparisons replicates.",
+  "fit": {
+    "M0": {
+      "chisq.scaled": 871346.3021,
+      "df.scaled": 170,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4118,
+      "tli.scaled": 0.3426,
+      "rmsea.scaled": 0.1933,
+      "srmr": 0.1688
+    },
+    "M0_12": {
+      "chisq.scaled": 566973.5107,
+      "df.scaled": 119,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4297,
+      "tli.scaled": 0.3482,
+      "rmsea.scaled": 0.1864,
+      "srmr": 0.1389
+    },
+    "M1": {
+      "chisq.scaled": 542166.6565,
+      "df.scaled": 118,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4547,
+      "tli.scaled": 0.3715,
+      "rmsea.scaled": 0.183,
+      "srmr": 0.1449
+    },
+    "M1b": {
+      "chisq.scaled": 566973.2858,
+      "df.scaled": 119,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.4297,
+      "tli.scaled": 0.3482,
+      "rmsea.scaled": 0.1864,
+      "srmr": 0.1389
+    },
+    "M2": {
+      "chisq.scaled": 523747.2983,
+      "df.scaled": 167,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.6465,
+      "tli.scaled": 0.5978,
+      "rmsea.scaled": 0.1512,
+      "srmr": 0.1297
+    },
+    "M2b": {
+      "chisq.scaled": 620354.0664,
+      "df.scaled": 168,
+      "pvalue.scaled": 0,
+      "cfi.scaled": 0.5813,
+      "tli.scaled": 0.5264,
+      "rmsea.scaled": 0.164,
+      "srmr": 0.1237
+    }
+  },
+  "H1": {
+    "registered": false,
+    "nested_ok": true,
+    "a_deltaCFI_ge_.010": true,
+    "b_M1b_rejected_at_.01": true,
+    "c_phi_le_.85": true,
+    "deltaCFI": 0.025,
+    "p_M1b": 0,
+    "phi_D1_D2": 0.7672,
+    "abs_phi_le_.85": true,
+    "supported": true,
+    "rule": "conjunctive: all three must hold (pre-registration 6.2), applied unaltered",
+    "interpretable": true
+  },
+  "H2": {
+    "registered": false,
+    "nested_ok": true,
+    "M2b_rejected_at_.01": true,
+    "p_M2b": 0,
+    "phi_D1_D3": 0.215,
+    "phi_le_.70": true,
+    "abs_phi_D1_D3": 0.215,
+    "abs_phi_le_.70": true,
+    "signed_and_abs_agree": true,
+    "phi_D2_D3": 0.0631,
+    "supported": true,
+    "d3_caveat": "ESS D3 is three institutional-trust items and carries none of the anti-institutional-personalism content that defines D3 in the primary model. Weak evidence about the paper's D3, by construction.",
+    "interpretable": true
+  },
+  "cross_round": {
+    "groups": "essround 9 / 10 / 11",
+    "n_groups": 3,
+    "criterion": "dCFI >= -.010 and dRMSEA <= .015, as in the primary",
+    "steps": {
+      "configural": {
+        "chisq.scaled": 524452.9488,
+        "df.scaled": 501,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.6466,
+        "tli.scaled": 0.5979,
+        "rmsea.scaled": 0.1512,
+        "srmr": 0.1295
+      },
+      "metric": {
+        "chisq.scaled": 462217.9194,
+        "df.scaled": 535,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.6886,
+        "tli.scaled": 0.6682,
+        "rmsea.scaled": 0.1374,
+        "srmr": 0.1302,
+        "dCFI": 0.042,
+        "dRMSEA": -0.0139,
+        "passes": true
+      },
+      "scalar": {
+        "chisq.scaled": 514784.9645,
+        "df.scaled": 679,
+        "pvalue.scaled": 0,
+        "cfi.scaled": 0.6532,
+        "tli.scaled": 0.7089,
+        "rmsea.scaled": 0.1287,
+        "srmr": 0.1301,
+        "dCFI": -0.0354,
+        "dRMSEA": -0.0087,
+        "passes": false
+      }
+    },
+    "metric_invariance_holds": true,
+    "registered_consequence": "§4.2: if metric invariance fails, round 11 is reported separately rather than pooled. Metric holds, so the pooled reading stands.",
+    "ess11_note": "ESS11's PVQ items carry the revised `a` administration; the frozen table maps them one to one, and this chain is the test of whether that mapping supports pooling."
+  },
+  "per_round": {
+    "9": {
+      "round": 9,
+      "n": 49519,
+      "n_countries": 29,
+      "deltaCFI": 0.0304,
+      "p_M1b": 0,
+      "phi_D1_D2": 0.723,
+      "nested_ok": true,
+      "supported": true
+    },
+    "10": {
+      "round": 10,
+      "n": 37611,
+      "n_countries": 22,
+      "deltaCFI": 0.0159,
+      "p_M1b": 0,
+      "phi_D1_D2": 0.8255,
+      "nested_ok": true,
+      "supported": true
+    },
+    "11": {
+      "round": 11,
+      "n": 50116,
+      "n_countries": 30,
+      "deltaCFI": 0.0262,
+      "p_M1b": 0,
+      "phi_D1_D2": 0.7671,
+      "nested_ok": true,
+      "supported": true
+    }
+  }
+}

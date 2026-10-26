@@ -1,0 +1,371 @@
+{
+  "registered": false,
+  "purpose": "Applies Decision D3's method-factor reasoning to the WVS/EVS justifiability battery, which dominates D1 and D2. Exploratory.",
+  "specs": {
+    "mf": {
+      "spec": "mf",
+      "registered": false,
+      "exploratory_note": "UNREGISTERED EXPLORATORY. Conceived 2026-09-08, after the registered sensitivities were run and the M2 loadings inspected. Decision rules are the pre-registration's own and were not altered. Report as exploratory; a negative result is reportable.",
+      "run_utc": "2026-09-08 15:54:28 UTC",
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame": "SMOKE",
+      "f117": "both",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "battery": [
+        "E290",
+        "F114A",
+        "F115",
+        "F116",
+        "F117",
+        "F118",
+        "F120",
+        "F121",
+        "F122",
+        "F123",
+        "F132"
+      ],
+      "battery_rule": "item label begins 'Justifiable:' in the frozen item table",
+      "n_rows": 6000,
+      "n_countries": 39,
+      "n_indicators": 51,
+      "n_by_dimension": {
+        "D1": 18,
+        "D2": 14,
+        "D3": 20
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 54613.3162,
+          "df.scaled": 1209,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6597,
+          "tli.scaled": 0.6411,
+          "rmsea.scaled": 0.0858,
+          "srmr": 0.1023
+        },
+        "M2b": {
+          "chisq.scaled": 56333.976,
+          "df.scaled": 1210,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.6487,
+          "tli.scaled": 0.6298,
+          "rmsea.scaled": 0.0872,
+          "srmr": 0.1046
+        },
+        "M0_12": {
+          "chisq.scaled": 22154.0904,
+          "df.scaled": 454,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.7657,
+          "tli.scaled": 0.7441,
+          "rmsea.scaled": 0.0893,
+          "srmr": 0.0951
+        },
+        "M1": {
+          "chisq.scaled": 22299.9757,
+          "df.scaled": 453,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.7642,
+          "tli.scaled": 0.7418,
+          "rmsea.scaled": 0.0897,
+          "srmr": 0.095
+        },
+        "M1b": {
+          "chisq.scaled": 22154.0871,
+          "df.scaled": 454,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.7657,
+          "tli.scaled": 0.7441,
+          "rmsea.scaled": 0.0893,
+          "srmr": 0.0951
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 24317.42,
+          "chisq_free": 24315.6,
+          "gap": 1.82
+        },
+        "delta_cfi": -0.0016,
+        "p_M1b": 0.336012,
+        "phi_D1_D2": 0.9789,
+        "dcfi_ge_.010": false,
+        "M1b_rejected_at_.01": false,
+        "abs_phi_le_.85": false,
+        "supported": false
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 76313.37,
+          "chisq_free": 73143.77,
+          "gap": 3169.6
+        },
+        "phi_D1_D3": -0.6093,
+        "phi_D2_D3": -0.5052,
+        "phi_D1_D2_in_M2": 1.1149,
+        "p_M2b": 4.08613e-180,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      },
+      "method_factor_loadings": [
+        {
+          "factor": "D1",
+          "variable": "F118",
+          "est.std": 0.7528
+        },
+        {
+          "factor": "D1",
+          "variable": "F120",
+          "est.std": 0.6362
+        },
+        {
+          "factor": "D1",
+          "variable": "F121",
+          "est.std": 0.6441
+        },
+        {
+          "factor": "D1",
+          "variable": "F122",
+          "est.std": 0.4863
+        },
+        {
+          "factor": "D1",
+          "variable": "F132",
+          "est.std": 0.4124
+        },
+        {
+          "factor": "D1",
+          "variable": "F123",
+          "est.std": 0.4172
+        },
+        {
+          "factor": "D2",
+          "variable": "F114A",
+          "est.std": 0.3921
+        },
+        {
+          "factor": "D2",
+          "variable": "F115",
+          "est.std": 0.1999
+        },
+        {
+          "factor": "D2",
+          "variable": "F116",
+          "est.std": 0.4209
+        },
+        {
+          "factor": "D2",
+          "variable": "F117",
+          "est.std": 0.2674
+        },
+        {
+          "factor": "D3",
+          "variable": "F117",
+          "est.std": -0.1099
+        },
+        {
+          "factor": "D3",
+          "variable": "E290",
+          "est.std": -0.252
+        },
+        {
+          "factor": "JF",
+          "variable": "F118",
+          "est.std": 0.425
+        },
+        {
+          "factor": "JF",
+          "variable": "F120",
+          "est.std": 0.5595
+        },
+        {
+          "factor": "JF",
+          "variable": "F121",
+          "est.std": 0.5206
+        },
+        {
+          "factor": "JF",
+          "variable": "F122",
+          "est.std": 0.5012
+        },
+        {
+          "factor": "JF",
+          "variable": "F132",
+          "est.std": 0.5953
+        },
+        {
+          "factor": "JF",
+          "variable": "F123",
+          "est.std": 0.6204
+        },
+        {
+          "factor": "JF",
+          "variable": "F114A",
+          "est.std": -0.6247
+        },
+        {
+          "factor": "JF",
+          "variable": "F115",
+          "est.std": -0.635
+        },
+        {
+          "factor": "JF",
+          "variable": "F116",
+          "est.std": -0.6856
+        },
+        {
+          "factor": "JF",
+          "variable": "F117",
+          "est.std": -0.7367
+        },
+        {
+          "factor": "JF",
+          "variable": "E290",
+          "est.std": -0.5957
+        }
+      ]
+    },
+    "excl": {
+      "spec": "excl",
+      "registered": false,
+      "exploratory_note": "UNREGISTERED EXPLORATORY. Conceived 2026-09-08, after the registered sensitivities were run and the M2 loadings inspected. Decision rules are the pre-registration's own and were not altered. Report as exploratory; a negative result is reportable.",
+      "run_utc": "2026-09-08 15:58:39 UTC",
+      "seed": 20260810,
+      "R_version": "R version 4.6.1 (2026-06-24)",
+      "frame": "SMOKE",
+      "f117": "both",
+      "frame_sha256": "16407d91bcb9dff1ff246ee5a515a2089bd2d1ca8525e69a824b6212cc4743ce",
+      "item_table_sha256": "2c9e0b7f215c925c2e9fc38aa164e53edcb3c390df251869b694e48aed144de5",
+      "battery": ["E290", "F114A", "F115", "F116", "F117", "F118", "F120", "F121", "F122", "F123", "F132"],
+      "battery_rule": "item label begins 'Justifiable:' in the frozen item table",
+      "n_rows": 6000,
+      "n_countries": 39,
+      "n_indicators": 40,
+      "n_by_dimension": {
+        "D1": 12,
+        "D2": 10,
+        "D3": 18
+      },
+      "fit": {
+        "M2": {
+          "chisq.scaled": 43759.1597,
+          "df.scaled": 737,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5362,
+          "tli.scaled": 0.5091,
+          "rmsea.scaled": 0.0987,
+          "srmr": 0.1184
+        },
+        "M2b": {
+          "chisq.scaled": 47421.8557,
+          "df.scaled": 738,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4967,
+          "tli.scaled": 0.4681,
+          "rmsea.scaled": 0.1027,
+          "srmr": 0.1144
+        },
+        "M0_12": {
+          "chisq.scaled": 12738.7475,
+          "df.scaled": 209,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4793,
+          "tli.scaled": 0.4245,
+          "rmsea.scaled": 0.1,
+          "srmr": 0.126
+        },
+        "M1": {
+          "chisq.scaled": 10298.0757,
+          "df.scaled": 208,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.5807,
+          "tli.scaled": 0.5343,
+          "rmsea.scaled": 0.0899,
+          "srmr": 0.11
+        },
+        "M1b": {
+          "chisq.scaled": 12738.7478,
+          "df.scaled": 209,
+          "pvalue.scaled": 0,
+          "cfi.scaled": 0.4793,
+          "tli.scaled": 0.4245,
+          "rmsea.scaled": 0.1,
+          "srmr": 0.126
+        }
+      },
+      "admissibility": {
+        "M2": {
+          "min_eigenvalue_covlv": 0.649862,
+          "max_abs_latent_cor": 0.3472,
+          "min_residual_var": 0.379455,
+          "admissible": true
+        },
+        "M2b": {
+          "min_eigenvalue_covlv": -0.094667,
+          "max_abs_latent_cor": 1,
+          "min_residual_var": 0.45749,
+          "admissible": false
+        },
+        "M0_12": {
+          "min_eigenvalue_covlv": 1,
+          "max_abs_latent_cor": 0,
+          "min_residual_var": 0.350585,
+          "admissible": true
+        },
+        "M1": {
+          "min_eigenvalue_covlv": 0.79877,
+          "max_abs_latent_cor": 0.2012,
+          "min_residual_var": 0.267869,
+          "admissible": true
+        },
+        "M1b": {
+          "min_eigenvalue_covlv": 0,
+          "max_abs_latent_cor": 1,
+          "min_residual_var": 0.350586,
+          "admissible": false
+        }
+      },
+      "H1": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 13661.63,
+          "chisq_free": 11254.22,
+          "gap": 2407.41
+        },
+        "delta_cfi": 0.1014,
+        "p_M1b": 9.69064e-249,
+        "phi_D1_D2": 0.2012,
+        "dcfi_ge_.010": true,
+        "M1b_rejected_at_.01": true,
+        "abs_phi_le_.85": true,
+        "supported": true
+      },
+      "H2": {
+        "interpretable": true,
+        "nested_check": {
+          "ok": true,
+          "chisq_restricted": 58879.02,
+          "chisq_free": 56019.58,
+          "gap": 2859.44
+        },
+        "phi_D1_D3": -0.3472,
+        "phi_D2_D3": -0.3294,
+        "phi_D1_D2_in_M2": 0.342,
+        "p_M2b": 7.89489e-280,
+        "M2b_rejected_at_.01": true,
+        "abs_phi_le_.70": true,
+        "supported": true
+      },
+      "method_factor_loadings": {}
+    }
+  },
+  "run_utc": "2026-09-08 15:58:49 UTC"
+}

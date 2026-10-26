@@ -1,0 +1,120 @@
+{
+  "registered": false,
+  "purpose": "exploratory: locate the dimension whose loading pattern fails to replicate across countries, after removing per-country factor-orientation",
+  "variant": "primary",
+  "run_utc": "2026-08-10 20:21:32 UTC",
+  "n_countries": 39,
+  "strong_threshold": 0.4,
+  "pooled_source": "primary-both-M2.rds",
+  "dimensions": {
+    "D1": {
+      "n_items": 18,
+      "whole_factor_flips": 9,
+      "abs_r_after_flip": {
+        "lt_0.3": 2,
+        "between": 9,
+        "gt_0.6": 28
+      },
+      "by_pooled_loading_band": {
+        "lt.20": {
+          "n_items": 6,
+          "sign_disagreement": 0.3034,
+          "mean_abs_country_loading": 0.2814
+        },
+        "20to30": {
+          "n_items": 2,
+          "sign_disagreement": 0.1026,
+          "mean_abs_country_loading": 0.2572
+        },
+        "30to40": {
+          "n_items": 1,
+          "sign_disagreement": 0.0769,
+          "mean_abs_country_loading": 0.2249
+        },
+        "gt.40": {
+          "n_items": 9,
+          "sign_disagreement": 0.0912,
+          "mean_abs_country_loading": 0.5448
+        }
+      },
+      "strong_items": {
+        "n_items": 9,
+        "residual_sign_disagreement": 0.0912,
+        "mean_abs_country_loading": 0.5448,
+        "countries_zero_disagreement": 28,
+        "countries_above_25pct": 9
+      }
+    },
+    "D2": {
+      "n_items": 14,
+      "whole_factor_flips": 20,
+      "abs_r_after_flip": {
+        "lt_0.3": 16,
+        "between": 12,
+        "gt_0.6": 11
+      },
+      "by_pooled_loading_band": {
+        "lt.20": {
+          "n_items": 3,
+          "sign_disagreement": 0.4786,
+          "mean_abs_country_loading": 0.2026
+        },
+        "20to30": {
+          "n_items": 2,
+          "sign_disagreement": 0.5385,
+          "mean_abs_country_loading": 0.197
+        },
+        "gt.40": {
+          "n_items": 9,
+          "sign_disagreement": 0.2991,
+          "mean_abs_country_loading": 0.429
+        }
+      },
+      "strong_items": {
+        "n_items": 9,
+        "residual_sign_disagreement": 0.2991,
+        "mean_abs_country_loading": 0.429,
+        "countries_zero_disagreement": 8,
+        "countries_above_25pct": 21
+      }
+    },
+    "D3": {
+      "n_items": 20,
+      "whole_factor_flips": 13,
+      "abs_r_after_flip": {
+        "lt_0.3": 6,
+        "between": 9,
+        "gt_0.6": 24
+      },
+      "by_pooled_loading_band": {
+        "lt.20": {
+          "n_items": 2,
+          "sign_disagreement": 0.5769,
+          "mean_abs_country_loading": 0.1896
+        },
+        "20to30": {
+          "n_items": 3,
+          "sign_disagreement": 0.2051,
+          "mean_abs_country_loading": 0.2638
+        },
+        "30to40": {
+          "n_items": 1,
+          "sign_disagreement": 0.0769,
+          "mean_abs_country_loading": 0.3238
+        },
+        "gt.40": {
+          "n_items": 14,
+          "sign_disagreement": 0.1923,
+          "mean_abs_country_loading": 0.4858
+        }
+      },
+      "strong_items": {
+        "n_items": 14,
+        "residual_sign_disagreement": 0.1923,
+        "mean_abs_country_loading": 0.4858,
+        "countries_zero_disagreement": 19,
+        "countries_above_25pct": 15
+      }
+    }
+  }
+}

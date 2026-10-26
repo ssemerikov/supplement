@@ -1,0 +1,91 @@
+wave 2
+==============================================================================
+TIER-2 FORECAST — DISTRIBUTION SUMMARY
+==============================================================================
+
+Provenance
+  tier2-forecast-wave2-20260909T100752Z.json
+    primary  elicited 2026-09-09T10:07:52.684592+00:00   complete 48/144   contributed 48
+  tier2-forecast-wave2-topup-20260909T102824Z.json
+    topup    elicited 2026-09-09T10:28:24.139332+00:00   complete 93/96   contributed 93
+
+  item table sha256 : IDENTICAL across files  2c9e0b7f215c925c…
+  instrument sha256 : IDENTICAL across files  5bf9353386ed2d57…
+
+------------------------------------------------------------------------------
+GRID COVERAGE (pre-registration §7.2 check 1)
+------------------------------------------------------------------------------
+  phrasings              3 (floor 3)  PASS   adversarial, betting, neutral
+  persona detail levels  2 (floor 2)  PASS   rich, terse
+  temperatures           2 (floor 2)  PASS   0.3, 1.0
+  model families         5 (floor 3)  PASS   Anthropic (Claude), DeepSeek, Google (Gemma), OpenAI (gpt-oss), Zhipu (GLM)
+  personas               6   comparativist, cross_cultural, methodologist, psychometrician, sceptic, sociologist
+
+  registered grid: SATISFIED
+
+  accepted draws per endpoint (A + B of a possible 12 + 12):
+    kiro/claude-sonnet-4.5   A 12/12   B 12/12
+    kiro/claude-haiku-4.5    A 11/12   B 10/12
+    kiro/deepseek-3.2        A 12/12   B 12/12
+    gemma4:31b-cloud         A 12/12   B 12/12
+    gpt-oss:120b-cloud       A 12/12   B 12/12
+    kiro/glm-5               A 12/12   B 12/12
+
+------------------------------------------------------------------------------
+HYPOTHESIS-LEVEL AND INVARIANCE FORECASTS  (blocks B and C)
+------------------------------------------------------------------------------
+  id             n    med   IQR   min   max   distribution
+  B-FIT         70   0.41  0.23  0.12  0.90   ▁▁▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇██
+  B-H1          70   0.45  0.30  0.08  0.85   ▁▁▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇
+  B-H1a         70   0.78  0.13  0.35  0.98   ▃▃▄▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇████████████
+  B-H1c         70   0.70  0.30  0.18  0.98   ▂▃▃▃▃▃▃▃▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇████████████
+  B-H2          70   0.39  0.25  0.08  0.75   ▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▇
+  B-H2c         70   0.60  0.31  0.12  0.96   ▁▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇▇███████
+  B-H3b         70   0.35  0.21  0.05  0.65   ▁▁▁▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▆
+  B-H4          70   0.58  0.20  0.20  0.73   ▂▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆▆
+  C-ALIGN       70   0.60  0.26  0.28  0.99   ▃▃▃▃▃▄▄▄▄▄▄▄▄▄▄▄▄▄▄▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▅▆▆▆▆▆▆▆▆▆▆▆▆▆▇▇▇▇▇▇▇▇▇▇▇▇▇████
+  C-METRIC      70   0.25  0.16  0.03  0.70   ▁▁▁▁▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▄▄▄▄▄▄▄▄▄▅▅▆
+  C-SCALAR      70   0.10  0.10  0.01  0.40   ▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▂▃▃▃▄
+
+  parameter forecasts (point estimates)
+  id             n     med   IQR    min    max
+  D-PHI12       70    0.45  0.36   0.12   0.91
+  D-PHI13       70    0.35  0.44  -0.60   0.78
+  D-PHI23       70    0.38  0.26  -0.30   0.83
+
+------------------------------------------------------------------------------
+ITEM-LOADING FORECASTS  (block A) — spread across the grid
+------------------------------------------------------------------------------
+  52 item propositions forecast
+  widest disagreement across the grid:
+    A-D1-P2      range 0.84   median 0.40  n=71
+    A-D2-M4      range 0.81   median 0.66  n=71
+    A-D3-P8      range 0.80   median 0.57  n=71
+    A-D3-P7      range 0.80   median 0.65  n=71
+    A-D3-P2      range 0.80   median 0.72  n=71
+    A-D1-M5      range 0.80   median 0.65  n=71
+    A-D1-M1      range 0.80   median 0.71  n=71
+    A-D1-E3      range 0.80   median 0.55  n=71
+  tightest agreement:
+    A-D1-M7      range 0.55   median 0.60  n=71
+    A-D2-A2      range 0.55   median 0.40  n=71
+    A-D1-E1      range 0.50   median 0.71  n=71
+    A-D2-C2      range 0.49   median 0.35  n=71
+    A-D2-E3      range 0.48   median 0.32  n=71
+
+------------------------------------------------------------------------------
+DISPERSION DECOMPOSITION  (NOT the registered VR — see module docstring)
+------------------------------------------------------------------------------
+  mean within-model variance  (same model, different prompt cell) : 0.0132
+  mean between-model variance (model means)                       : 0.0127
+  ratio between/within                                            : 0.96
+
+  Reading: a ratio well below 1 means the endpoints agree with each other more
+  than each agrees with itself under reworded prompts — the forecast would then be
+  a property of the prompt, not of the model. A ratio well above 1 means the
+  endpoints hold distinguishable positions that survive rewording.
+
+  The registered variance ratio against a human comparison distribution is NOT
+  computed: no human panel was run (DECISIONS.md Decision 1), so no such distribution
+  exists. Reported as an executed-with-deviation check, never as a satisfied one.
+
